@@ -1,0 +1,591 @@
+{
+  "version" : "2.1",
+  "id" : "TestVCSPackage",
+  "name" : "TestVCSPackage",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesExtended",
+  "uniqueId" : "cpk-9dd63c03-b5de-49d2-af11-0c4c22488782",
+  "origin" : "uspresales-americas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Unit Hgt",
+    "itemURL" : "step://attribute?id=UNITHGT_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GTIN",
+    "itemURL" : "step://attribute?id=GTIN_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Order Min",
+    "itemURL" : "step://attribute?id=ORDMIN_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mounting Method",
+    "itemURL" : "step://attribute?id=MOUNTINGMETHOD_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Customer Name",
+    "itemURL" : "step://attribute?id=CustomerName_AT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Type",
+    "itemURL" : "step://attribute?id=TYPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Trade Name",
+    "itemURL" : "step://attribute?id=TRADENAME_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lab Office Desc",
+    "itemURL" : "step://attribute?id=LABOFFICEDESC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Hgt UOM",
+    "itemURL" : "step://attribute?id=UNITHGTUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Ben",
+    "itemURL" : "step://attribute?id=PRODBEN_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Hgt UOM",
+    "itemURL" : "step://attribute?id=PRODHGTUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "IGCC",
+    "itemURL" : "step://attribute?id=IGCC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Width UOM",
+    "itemURL" : "step://attribute?id=UNITWIDUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Type",
+    "itemURL" : "step://attribute?id=PRODTYPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Price",
+    "itemURL" : "step://attribute?id=LISTPRICE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Lenth",
+    "itemURL" : "step://attribute?id=PRODLEN_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Lenth UOM",
+    "itemURL" : "step://attribute?id=UNITLENUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!Attributes Master Configurations",
+    "itemURL" : "step://attributegroup?id=AttributesMasterConfigurations_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Func",
+    "itemURL" : "step://attribute?id=PRODFUNC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Order Min UOM",
+    "itemURL" : "step://attribute?id=ORDMINUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Interrupt Rating",
+    "itemURL" : "step://attribute?id=INTERRUPTRATING_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMECat Attributes PDX",
+    "itemURL" : "step://attributegroup?id=BMECatAttributesPDX_ATG",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Enabler.Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prospect Project Attributes",
+    "itemURL" : "step://attributegroup?id=ProspectProjectAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Gross Wt UOM",
+    "itemURL" : "step://attribute?id=UNITGROSSWTUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lead Time",
+    "itemURL" : "step://attribute?id=LEADTIME_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Shape",
+    "itemURL" : "step://attribute?id=UNITSHAPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Special Features",
+    "itemURL" : "step://attribute?id=SPECIALFEATURES_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UPC",
+    "itemURL" : "step://attribute?id=UPC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UNSPSC",
+    "itemURL" : "step://attribute?id=UNSPSC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Currency",
+    "itemURL" : "step://attribute?id=CURRENCY_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Brand Label",
+    "itemURL" : "step://attribute?id=BRANDLABEL_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Integration Type",
+    "itemURL" : "step://objecttype?id=DnBIntegrationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AttributeMaintenance",
+    "itemURL" : "step://stepworkflow?id=AttributeMaintenance",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Connection",
+    "itemURL" : "step://attribute?id=CONNECTION_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Width",
+    "itemURL" : "step://attribute?id=PRODWID_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Wt",
+    "itemURL" : "step://attribute?id=PRODWT_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Shape",
+    "itemURL" : "step://attribute?id=PRODSHAPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Amperage Rating",
+    "itemURL" : "step://attribute?id=AMPERAGERATING_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Feature",
+    "itemURL" : "step://attribute?id=PRODFEATURE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Hgt",
+    "itemURL" : "step://attribute?id=PRODHGT_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Width",
+    "itemURL" : "step://attribute?id=UNITWID_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Application",
+    "itemURL" : "step://attribute?id=APPLICATION_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Anzeigesequenz",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mark Desc",
+    "itemURL" : "step://attribute?id=MARKDESC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Sub Type",
+    "itemURL" : "step://attribute?id=PRODSUBTYPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lead Time UOM",
+    "itemURL" : "step://attribute?id=LEADTIMEUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Workflows Type",
+    "itemURL" : "step://objecttype?id=DnBWorkflowsType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Segment",
+    "itemURL" : "step://attribute?id=SEGMENT_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Material Type",
+    "itemURL" : "step://attribute?id=MATERIALTYPE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Eaton Attributes  PDX",
+    "itemURL" : "step://attributegroup?id=EatonAttributesPDX_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Cntry Of Org",
+    "itemURL" : "step://attribute?id=CNTRYOFORG_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Voltage Rating",
+    "itemURL" : "step://attribute?id=VOLTAGERATING_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Warranty",
+    "itemURL" : "step://attribute?id=WARRANTY_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lab Office",
+    "itemURL" : "step://attribute?id=LABOFFICE_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Compliances",
+    "itemURL" : "step://attribute?id=COMPLIANCES_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DisplaySequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Long Desc",
+    "itemURL" : "step://attribute?id=LONGDESC_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stk Ind",
+    "itemURL" : "step://attribute?id=STKIND_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Enabler Root",
+    "itemURL" : "step://objecttype?id=Enabler.EnablerRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Lenth UOM",
+    "itemURL" : "step://attribute?id=PRODLENUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sub Brand",
+    "itemURL" : "step://attribute?id=SUBBRAND_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Name",
+    "itemURL" : "step://attribute?id=PRODNAME_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Etim",
+    "itemURL" : "step://attribute?id=ETIM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unit Gross Wt",
+    "itemURL" : "step://attribute?id=UNITGROSSWT_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Catalog",
+    "itemURL" : "step://attribute?id=CATALOG_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Warranty Country",
+    "itemURL" : "step://attribute?id=WARRANTYCOUNTRY_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Source",
+    "itemURL" : "step://attribute?id=ConfigurationSource_AT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Width UOM",
+    "itemURL" : "step://attribute?id=PRODWIDUOM_ETN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-03-25 13:49:54\"    >\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"BMECatAttributesPDX_ATG\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"EatonAttributesPDX_ATG\">\n    <Name QualifierID=\"en-US\">BMECat Attributes PDX</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"AttributeMaintenance\">\n\n<!-- Definition:\n<scxml name=\"AttributeMaintenance\" initial=\"Start\" version=\"0.9\">\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>\n  <final id=\"End\" discontinued=\"false\">\n    <assignee id=\"$current\" type=\"user\"/>\n    <editorLayout>   node-size-and-position x=199.0 y=196.0 w=100.0 h=25.0  </editorLayout>\n  </final>\n  <state id=\"Start\" discontinued=\"false\">\n    <transition target=\"End\"/>\n    <assignee id=\"$current\" type=\"user\"/>\n    <editorLayout>   node-size-and-position x=157.0 y=137.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n</scxml> -->\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"std.lang.all\">AttributeMaintenance</Name>\n      <Configuration>H4sIAAAAAAAA/5WSy2rDMBBF9/kKVXTrR5Lm4WIZSuki0JJC6Aeo9sQZsMdGGsdJv76ykrRQCKEbDUJz59wrSXfcrAgZNcOang24qra6spDatkLO4AB5x7DJDbb8ijUyFO8G91hBCVax6S6dFVoGWtOqbhvDYD7a4u8wmx/qSqW+CPTYSskNa8NSkK5BySdmg5+O+KaR3DxNOUixB2OxISXjMJHCqckquWNuH6Oo7/uwn4aNKaNJHM+ieBF5gMzSuyAQQlBTQGDxCwJNRdA21nEbEgcVh7E4+rVX84elqzs1Ww57EQTZSKSWXQJRoM0bYqQOCiV9HimwuBi/iRnPFh40ni48ahzHHjWZ/ZBEykbTWeGmlsBKvlDhhke/J9lo6NTWYkkA3sJ93hkD5K6Pj627vs6CGUSXpmyURj7FoE23SLq6nucEvJUmSU5pkvn1NP/26J15s8PTZef/8g00M9tfngIAAA==</Configuration>\n    </STEPWorkflow>\n  </STEPWorkflows>\n</STEP-ProductInformation>\n",
+  "signatory" : "HOWR",
+  "comment" : "www"
+}
