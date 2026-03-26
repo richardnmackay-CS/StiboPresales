@@ -18,7 +18,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Traducteur, Supprimer",
+    "name" : "Translator, Delete",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -39,8 +39,15 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Warehouse, Approve",
+    "name" : "Logistik, Freigeben",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.WarehouseApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
@@ -102,7 +109,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Sources de Données",
+    "name" : "Data Sources",
     "itemURL" : "step://product?id=DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -151,7 +158,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Interne Daten Quellen",
+    "name" : "Sources de Données Internes",
     "itemURL" : "step://objecttype?id=PMDM.PRD.INT.DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -172,7 +179,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Externe Daten Quellen",
+    "name" : "Bass Pro Shop Rules",
+    "itemURL" : "step://SetupGroup?id=BassProShopRules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sources de Données Externes",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -235,7 +249,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Images, Classer",
+    "name" : "Bilder, Klassifizieren",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesClassify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -270,7 +284,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Anreicherung, Löschen",
+    "name" : "Enrichissement, Supprimer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -284,14 +298,21 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Sellable Items",
+    "name" : "Sources de Données Internes",
     "itemURL" : "step://product?id=INT.DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Bilder, Erstellen",
+    "name" : "Global Business Rules Extension",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesExtension",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Images, Create",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesCreate",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -305,7 +326,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Acheteur, Modifier",
+    "name" : "Buyer, Modify",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerModify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -410,7 +431,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Käufer, Löschen",
+    "name" : "Acheteur, Supprimer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -424,7 +445,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Logistique, Supprimer",
+    "name" : "Warehouse, Delete",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.WarehouseDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -445,6 +466,13 @@
     "instruction" : "",
     "recursive" : false
   }, {
+    "name" : "Projects Rules Group",
+    "itemURL" : "step://SetupGroup?id=ProjectsRulesGroup_BRG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
     "name" : "Images, View",
     "itemURL" : "step://ActionSet?id=PMDM.UA.ImagesView",
     "inclusion" : "Precondition",
@@ -452,7 +480,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Enrichment, Create",
+    "name" : "Anreicherung, Schaffen",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentCreate",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -480,14 +508,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Traducteur, Approuver",
+    "name" : "Übersetzer, Freigeben",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorApprove",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Daten Quelle",
+    "name" : "Data Sources",
     "itemURL" : "step://objecttype?id=PMDM.PRD.DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -501,7 +529,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Copy, Create",
+    "name" : "Rédaction, Créer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyCreate",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -529,7 +557,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Source de Données Externes",
+    "name" : "Externe Daten Quelle",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.DataSource",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -543,7 +571,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Extern - Level 3",
+    "name" : "External Level 3",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.Level3",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -557,7 +585,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "External Level 4",
+    "name" : "Externes - Niveau 4",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.Level4",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -606,14 +634,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Extern - Level 5",
+    "name" : "External Level 5",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.Level5",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Externes - Niveau 6",
+    "name" : "External Level 6",
     "itemURL" : "step://objecttype?id=PMDM.PRD.EXT.Level6",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -634,7 +662,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Käufer, Ändern - Externe Datenquellen",
+    "name" : "Acheteur, Modifier - Sources de Données externes",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerModifyExt",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -690,14 +718,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "But",
+    "name" : "Zweck",
     "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
     "inclusion" : "Impacted",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Copy, Delete",
+    "name" : "Rédaction, Supprimer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -718,14 +746,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Bilder, Löschen",
+    "name" : "Images, Supprimer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesDelete",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Vendor Item Data",
+    "name" : "Externe Daten Quellen",
     "itemURL" : "step://product?id=EXT.DataSources",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -753,7 +781,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Produits refusés",
+    "name" : "Rejected Products",
     "itemURL" : "step://objecttype?id=PMDM.PRD.RejectedProducts",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -809,7 +837,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Buyer, Create",
+    "name" : "Acheteur, Créer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerCreate",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -823,7 +851,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Images, View",
+    "name" : "Bilder, Anzeigen",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesView",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -858,7 +886,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Übersetzer, Erstellen",
+    "name" : "Traducteur, Créer",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorCreate",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -900,7 +928,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "PMDM Configurations",
+    "name" : "Configurations",
     "itemURL" : "step://classification?id=PMDM.ConfigurationsRoot",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -963,6 +991,13 @@
     "instruction" : "",
     "recursive" : false
   }, {
+    "name" : "BA_StartMaintenance",
+    "itemURL" : "step://businessrule?id=BA_StartMaintenance",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
     "name" : "All User Actions",
     "itemURL" : "step://ActionSet?id=PMDM.UA.AllUserActions",
     "inclusion" : "Precondition",
@@ -977,7 +1012,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Marketing Copy, Classify",
+    "name" : "Marketing, Klassifizieren",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyClassify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -991,7 +1026,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Privilèges Utilisateur PMDM",
+    "name" : "PMDM Berechtigungen",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.UserPrivileges",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1005,21 +1040,21 @@
     "instruction" : "Manually enable and set to read events",
     "recursive" : false
   }, {
-    "name" : "PMDM Kategoriespezifische Attribute",
+    "name" : "PMDM Category Specific Attributes (PDX SYNC)",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.CategorySpecificAttributes",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Rejected Products",
+    "name" : "Abgelehnte Produkte",
     "itemURL" : "step://product?id=RejectedProductsRoot",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Acheteur, Créer - Sources de données externes",
+    "name" : "Buyer, Create - External Data Sources",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerCreateExt",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1075,7 +1110,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Enrichissement, Classer",
+    "name" : "Anreicherung, Klassifizieren",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentClassify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1089,7 +1124,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Lieferantenkonto",
+    "name" : "Supplier Account",
     "itemURL" : "step://objecttype?id=SupplierClassification",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1159,7 +1194,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Internal Level 4",
+    "name" : "Intern - Level 4",
     "itemURL" : "step://objecttype?id=PMDM.PRD.INT.Level4",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1208,7 +1243,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Enrichment, View",
+    "name" : "Anreicherung, Anzeigen",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentView",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1243,7 +1278,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Rédaction, Approuver",
+    "name" : "Marketing Copy, Approve",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyApprove",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1320,7 +1355,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Enrichment, Modify",
+    "name" : "Enrichissement, Modifier",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentModify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1348,7 +1383,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Suppliers",
+    "name" : "Lieferanten",
     "itemURL" : "step://classification?id=SupplierClassificationsRoot",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1362,14 +1397,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Rédaction, Modifier",
+    "name" : "Marketing Copy, Modify",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyModify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Bilder, Ändern",
+    "name" : "Images, Modifier",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesModify",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1390,14 +1425,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Images, Approuver",
+    "name" : "Images, Approve",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesApprove",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Anreicherung, Freigeben",
+    "name" : "Enrichment, Approve",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentApprove",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1544,7 +1579,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Käufer, Freigeben",
+    "name" : "Acheteur, Approuver",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerApprove",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1593,14 +1628,14 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Racine hiérarchie web",
+    "name" : "Web Hierarchy Root",
     "itemURL" : "step://objecttype?id=PMDM.CLS.WebHierarchyRoot",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Produit maître interne",
+    "name" : "Internal Master Product",
     "itemURL" : "step://objecttype?id=PMDM.PRD.InternalMasterProduct",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1635,7 +1670,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Übersetzungsüberprüfung, Anzeigen",
+    "name" : "Révision traduction, Consulter",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslationReviewView",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1649,7 +1684,7 @@
     "instruction" : "",
     "recursive" : false
   }, {
-    "name" : "Warehouse, View",
+    "name" : "Logistik, Anzeigen",
     "itemURL" : "step://attributegroup?id=PMDM.ATG.WarehouseView",
     "inclusion" : "Precondition",
     "importing" : "Ignore",
@@ -1747,7 +1782,7 @@
     "instruction" : "",
     "recursive" : false
   } ],
-  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-03-26 02:00:10\"    >\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"SAP_Material_Workflow\">\n\n<!-- Definition:\n<scxml name=\"SAP_Material_Workflow\" initial=\"SAP_1_ReviewMaterialRequest\" version=\"0.9\">\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=1160.0 h=710.0  </editorLayout>\n  <final id=\"SAP_End\" name=\"SAP_End\" discontinued=\"false\">\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=590.0 w=150.0 h=30.0  </editorLayout>\n    <onentry businessactionid=\"acn-68a07bec-4426-4aa0-b70a-555b6d09faad\"/>\n  </final>\n  <parallel id=\"SAP_ParallelState\" name=\"SAP Parallel State\" discontinued=\"false\">\n    <transition target=\"SAP_FinalReview\"/>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=20.0 y=170.0 w=1020.0 h=310.0  </editorLayout>\n    <onentry businessactionid=\"acn-8a4f3fc5-4632-49e7-af9d-16b8f442e0c0\"/>\n    <state id=\"SAP_Cluster1_BasicData\" name=\"SAP_Cluster1_BasicData\" discontinued=\"false\" initial=\"SAP_2_BasicData1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=20.0 y=40.0 w=200.0 h=240.0  </editorLayout>\n      <final id=\"SAP_2_BasicData3\" name=\"SAP_2_BasicData3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=190.0 w=140.0 h=30.0  </editorLayout>\n      </final>\n      <onentry businessactionid=\"acn-57234695-40ee-491e-90e7-b65fe921f01d\"/>\n      <state id=\"SAP_2_BasicData1\" name=\"Basic Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_2_BasicData2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=40.0 w=140.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-81a5902f-e283-4d4b-b540-d46925265ae3\"/>\n      </state>\n      <state id=\"SAP_2_BasicData2\" name=\"Basic Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_2_BasicData3\"/>\n        <transition event=\"Rework\" target=\"SAP_2_BasicData1\">\n          <editorLayout>   edge-path [SAP_2_BasicData1]  x=190.0 y=100.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_2_BasicData3\">\n          <editorLayout>   edge-path [SAP_2_BasicData3]  x=190.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=110.0 w=140.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster2_LogisticEnrichment\" name=\"SAP_Cluster2_LogisticEnrichment\" discontinued=\"false\" initial=\"SAP_3_Logistic1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=250.0 y=40.0 w=240.0 h=240.0  </editorLayout>\n      <final id=\"SAP_3_Logistic3\" name=\"SAP_3_Logistic3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=190.0 w=140.0 h=30.0  </editorLayout>\n      </final>\n      <onentry businessactionid=\"acn-63fae91c-646c-4125-a1e8-3a5ad545819c\"/>\n      <state id=\"SAP_3_Logistic1\" name=\"Logistic Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_3_Logistic2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=40.0 w=140.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-6cfdf50d-abab-4d45-a70b-f1c15934b3d8\"/>\n      </state>\n      <state id=\"SAP_3_Logistic2\" name=\"Logistic Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_3_Logistic3\"/>\n        <transition event=\"Rework\" target=\"SAP_3_Logistic1\">\n          <editorLayout>   edge-path [SAP_3_Logistic1]  x=200.0 y=90.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_3_Logistic3\">\n          <editorLayout>   edge-path [SAP_3_Logistic3]  x=200.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=110.0 w=140.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster3_PlanningEnrichment\" name=\"SAP_Cluster3_PlanningEnrichment\" discontinued=\"false\" initial=\"SAP_4_MRP1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=520.0 y=40.0 w=240.0 h=240.0  </editorLayout>\n      <final id=\"SAP_4_MRP3\" name=\"SAP_4_MRP3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=190.0 w=160.0 h=30.0  </editorLayout>\n      </final>\n      <state id=\"SAP_4_MRP1\" name=\"MRP Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_4_MRP2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=40.0 w=160.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-c67e0695-942c-48cf-a213-d94d0d7989d5\"/>\n      </state>\n      <state id=\"SAP_4_MRP2\" name=\"MRP Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_4_MRP3\"/>\n        <transition event=\"Rework\" target=\"SAP_4_MRP1\">\n          <editorLayout>   edge-path [SAP_4_MRP1]  x=200.0 y=90.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_4_MRP3\">\n          <editorLayout>   edge-path [SAP_4_MRP3]  x=190.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=120.0 w=160.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster4_FinanceEnrichment\" name=\"SAP_Cluster4_FinanceEnrichment\" discontinued=\"false\" initial=\"SAP_5_Finance1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=790.0 y=40.0 w=210.0 h=240.0  </editorLayout>\n      <final id=\"SAP_5_Finance3\" name=\"SAP_5_Finance3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=190.0 w=150.0 h=30.0  </editorLayout>\n      </final>\n      <state id=\"SAP_5_Finance1\" name=\"Finance Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_5_Finance2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=40.0 w=150.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-ba7921c9-75ab-45c0-97c6-6be775817536\"/>\n      </state>\n      <state id=\"SAP_5_Finance2\" name=\"Finance Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_5_Finance3\"/>\n        <transition event=\"Rework\" target=\"SAP_5_Finance1\">\n          <editorLayout>   edge-path [SAP_5_Finance1]  x=170.0 y=100.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_5_Finance3\">\n          <editorLayout>   edge-path [SAP_5_Finance3]  x=170.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=120.0 w=150.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n  </parallel>\n  <state id=\"SAP_1_ReviewMaterialRequest\" name=\"Review Material Request\" discontinued=\"false\">\n    <transition event=\"Submit\" target=\"SAP_ParallelState\"/>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=100.0 w=160.0 h=30.0  </editorLayout>\n    <onentry businessactionid=\"acn-e1b82325-a1b7-45f7-8c29-e4a9c323f345\"/>\n  </state>\n  <state id=\"SAP_FinalReview\" name=\"Material Release\" discontinued=\"false\">\n    <transition event=\"Submit\" target=\"SAP_End\"/>\n    <transition event=\"Rework_Material\" target=\"SAP_1_ReviewMaterialRequest\">\n      <editorLayout>   edge-path [SAP_1_ReviewMaterialRequest]  x=1090.0 y=520.0 x=1100.0 y=110.0  </editorLayout>\n    </transition>\n    <transition event=\"Reject\" target=\"SAP_End\">\n      <editorLayout>   edge-path [SAP_End]  x=390.0 y=530.0 x=390.0 y=610.0 pointx=0.0 pointy=39.0 offsetx=-59.0 offsety=-5.0  </editorLayout>\n    </transition>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=510.0 w=150.0 h=30.0  </editorLayout>\n  </state>\n</scxml> -->\n      <SetupGroupLink SetupGroupID=\"SAPWorkflows\"/>\n      <Name QualifierID=\"en-US\">SAP Material Workflow</Name>\n      <ValidUserTypeLink UserTypeID=\"PMDM.PRD.InternalSourceRecord\"/>\n      <Configuration>H4sIAAAAAAAA/82ZXW+jRhSG7/Mrpr6feD7BVHak7XYrrbSrjRJVvagqa4CDQ0sGCjhO9td3+IohAYPjNNmbGJiv97w58zDMqG0ef9ZhHqocvumPKZjfVaCiDJZZEoX5BdyDt83h2kvDJP8S3oY5+JdpeBdGsIFslafbpmYUZjnob/rzbRKnOaS/J/7TzjLv/jZaLcsfFJbDRqvZ9YfLNV1fwV0Iu6+mSWqeXsG/W8jyGdLqFqoqTdH6jzj9J4ji3QzdQZqFsV7NyLkzQ6ZTna1mN3me/Dyf73a78x0/j9PNnBEi58Sel+POLpY/YYwQ0rEPOAu/A1bax0mcGTmxRvcrck7QQ/l3t6LUKi5uVjYtfhHGF2domeVGC/LDzIt1Huot+KtZGecMhf6kgKpC1JSipnhUnJCVPEpqgbU+vpeHlrEGnacPyN1moYYsU17RupCmPI2BugvGmcSKujYWMrDxwmMOBqEcjzMecCGNkHndy8VZ0WWeKl2LgDvz3ES5dU02zFCu0g3kVdSXKlVRBNF1YVDRx75Z1Y3KsnCjASqftgmkaJtBanp5SIwtmzTeJkW7pt7F2XJeul00XyZ194et74rYZxBqClAjb8RrVltt11YTVntNp5u9UCLggSexsDjDwgEbq8DxMbXcRSAEA+KRQ2a33f0t1EUiFZnzOt4WrSbk8sdoa6Z2Ste/qCz0flW5mnVnL9uX0PaU7Wk41XRRec5IZTkTLcvHPJc248JyjOcEwHhOATvEGO9aMgCH0YBQ/6nnL7Rvkn999pRPUPEIfdJp6N3cGi3HukPF88k/npFUSYewAANbcCx84WJXCoJ9YxmTzJIK+DN3pgKgFSrrydFTCXC036zH7w9JksZ3asKboAEAPWj30c7wfmee93MFO/OuG+yHPkYA/gZwovIb9OfTOn8hEwh12m+NQvpUAX+DdziQMQG8K8A+JODU3AgKQE7ODd5GVW9Uo4nhHEyMl4RThtCN6whEs/WXeGPWYaHXgkqX1fyxSh+qezsYt0N2oS1eAG2LBwoc6mFLWB4WtFyfwAJzJZUvhVxQx3tLaPf41Dw4HtvW6di2vMAPJPGxcpVbYNv4YxMXB9Sj0uHC5f7ixdjeB/t+1G5r6DV8OretV+T2XtZJ2G6n0wA0W1VKZlZrn4eVczqzu0GMjM47o787sdvaW8DqC2k0IX40XvP1ZaS0DvVmkNdi/fXqsg/VvW1HnZBsCqr/P6x2wzHXx8NUdGHa8wE8ClPPsoEUXwiOYOZls/ACrBjl2HeET3zbWTj+s0/gycQoQ3w/jtbDP3V4Oj1rfyk7aPARXpwEzjphBqhVlb42Lh9VD4/5gy1ra8UtSjyJYfS/7Rz8b789GkW53aE9GCSjbGr00bGv+agXttOFI31jOD6PqL4/GZLyBZB0le0w6jnYlsWKU3oEO7ZnYcsF2zbrcVty68WQfAz1/UDZktDn9vHbBOyg2Uf6chI0W4k0ALF9jQpk9uttEHRCODw47w7+3hRtKW8RpSeeyRsD/anwGjRdzpvd8HJrfEK+t7ePm9XB/vwhApVN2BNvzh8kHY5wYqp/0n7fNvZQhj8eAHV7GTpoGUi9gepVHpKa/9Ui+b74gGx/SfZm5sRJUQXbK8kUlcPzZnRejd7cW+XgSRzqvDqcKi8fTLm5joMgA/Mcy/3dg7kblHvaCcyESVRE2po97cDHs+rAvBnbH1koYrtgVvOCWVgoRbBrE4WllK7lEydQ6tmm/4kTsThOvKiPNv8DTcbQlEkdAAA=</Configuration>\n      <LocalBusinessRule ID=\"acn-c67e0695-942c-48cf-a213-d94d0d7989d5\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-e1b82325-a1b7-45f7-8c29-e4a9c323f345\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (ReferenceOtherBABusinessAction):\nReferencedBA=\n\nAction #2 (ReferenceOtherBABusinessAction):\nReferencedBA=\n\nAction #3 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"InternalSource\" type=\"ObjectType\" contract=\"ObjectTypeBindContract\">\n      PMDM.PRD.InternalSourceRecord\n    </binding>\n  </bindings>\n  <messages/>\n  <javaScript>\n//Begin Setting Control Record Attributes\n//node.getValue(\"SAP-TABNAM\").setSimpleValue(\"EDI_DC40\");\nif (node.getObjectType().getID().equals(InternalSource.getID())) {\n\n\nnode.getValue(\"SAP-DIRECT\").setSimpleValue(\"2\");\nnode.getValue(\"SAP-IDOCTYP\").setSimpleValue(\"MATMAS05\");\nnode.getValue(\"SAP-MESTYP\").setSimpleValue(\"MATMAS\");\nnode.getValue(\"SAP-SNDPOR\").setSimpleValue(\"STEP\");\nnode.getValue(\"SAP-SNDPRT\").setSimpleValue(\"LS\");\nnode.getValue(\"SAP-SNDPRN\").setSimpleValue(\"STIBOPIPO\");\nnode.getValue(\"SAP-RCVPOR\").setSimpleValue(\"SAPS4S\");\nnode.getValue(\"SAP-RCVPRN\").setSimpleValue(\"S4HCLNT100\");\n//End Setting Control Record Attributes\n\n/*node.getValue(\"SAP-MSGFN\").setSimpleValue(\"005\");\n  //node.getValue(\"SAP-MATNR\").setSimpleValue(\"000000000000002123\");**\nnode.getValue(\"SAP-MTART\").setSimpleValue(\"FERT\");\nnode.getValue(\"SAP-MBRSH\").setSimpleValue(\"M\");\nnode.getValue(\"SAP-MATKL\").setSimpleValue(\"L004\");\nnode.getValue(\"SAP-MEINS\").setSimpleValue(\"PCE\");\nnode.getValue(\"SAP-GROES\").setSimpleValue(\"10X20X10 CM\");\nnode.getValue(\"SAP-BRGEW\").setSimpleValue(\"1.500\");\nnode.getValue(\"SAP-NTGEW\").setSimpleValue(\"1.500\");\nnode.getValue(\"SAP-GEWEI\").setSimpleValue(\"KGM\");\nnode.getValue(\"SAP-VOLUM\").setSimpleValue(\"0.002\");\nnode.getValue(\"SAP-VOLEH\").setSimpleValue(\"MTQ\");\nnode.getValue(\"SAP-TRAGR\").setSimpleValue(\"0001\");\nnode.getValue(\"SAP-SPART\").setSimpleValue(\"00\");\n //node.getValue(\"SAP-MATNR_LONG\").setSimpleValue(\"000000000000002123\");**\n //node.getValue(\"SAP-MATNR_EXTERNAL\").setSimpleValue(\"000000000000002123\");**\nnode.getValue(\"SAP-SPRAS\").setSimpleValue(\"E\");\n //node.getValue(\"SAP-MAKTX\").setSimpleValue(\"Training Material for Stibo Step out SAP\");**\nnode.getValue(\"SAP-SPRAS_ISO\").setSimpleValue(\"EN\");\nnode.getValue(\"SAP-WERKS\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-PSTAT\").setSimpleValue(\"VDLBG\");\nnode.getValue(\"SAP-DISMM\").setSimpleValue(\"ND\");\nnode.getValue(\"SAP-PLIFZ\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-WEBAZ\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-PERKZ\").setSimpleValue(\"M\");\nnode.getValue(\"SAP-AUSSS\").setSimpleValue(\"0.00\");\nnode.getValue(\"SAP-BESKZ\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-LADGR\").setSimpleValue(\"0002\");\nnode.getValue(\"SAP-MTVFP\").setSimpleValue(\"02\");\nnode.getValue(\"SAP-PRCTR\").setSimpleValue(\"YB110\");\nnode.getValue(\"SAP-LOSGR\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-AWSLS\").setSimpleValue(\"000001\");\n //node.getValue(\"SAP-LGORT\").setSimpleValue(\"101A\");**\n //node.getValue(\"SAP-LGPBE\").setSimpleValue(\"STIBO 15\");**\nnode.getValue(\"SAP-MEINH\").setSimpleValue(\"PCE\");\nnode.getValue(\"SAP-UMREZ\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-UMREN\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VOLUM\").setSimpleValue(\"0.002\");\nnode.getValue(\"SAP-VOLEH\").setSimpleValue(\"MTQ\");\nnode.getValue(\"SAP-BWKEY\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-VPRSV\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-STPRS\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-PEINH\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-BKLAS\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VMVPR\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-VMSTP\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-VMPEI\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VMBKL\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VJVPR\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-VJSTP\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-LFGJA\").setSimpleValue(\"2020\");\nnode.getValue(\"SAP-LFMON\").setSimpleValue(\"6\");\nnode.getValue(\"SAP-EKALR\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-VPLPR\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-MLMAA\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-MLAST\").setSimpleValue(\"3\");\nnode.getValue(\"SAP-VJBKL\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VJPEI\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VKORG\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-VTWEG\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-SKTOF\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-MTPOS\").setSimpleValue(\"NORM\");\nnode.getValue(\"SAP-ALAND\").setSimpleValue(\"DK\");\nnode.getValue(\"SAP-TATY1\").setSimpleValue(\"MWST\");\nnode.getValue(\"SAP-TAXM1\").setSimpleValue(\"1\");\n*/\n}\n\n//SVBU **\nif(node.getName() == null){\nnode.setName(node.getValue(\"SAP-MAKTX\").getSimpleValue());\n}\n  </javaScript>\n</config> -->\n        <Configuration>H4sIAAAAAAAA/+VZbW+jRhD+fr9i5UpRHOkA55K+KHGixWAfMW9lN7bTLxax1z5OGHy8nNqe7r93MY4dkvPuXGtVleoPGJblmWdmnxkGWMflMkqm4XodRyyfRovpLE0W0fI65wPFzbo+XY91r29/X8XoM8vyKE26rY6itRBLZuk8Spbd1j3tv/25dXvz5lov8yhheR6UMbt5g9BuwN/Aoefn6yHL6LYCtmAZh2Ne8YFlOn6ahWcFN9eqgDiUH2bhihWcQz3wfAg1YOY6biH6x5p1Wx/Dz6ESh8lSIUXGybZurtXdVVtgtYl8rTZJ///8uOPGyCyL1kXTg3FUfNCjZJ6DXalnH/ThJC6uGso6+VSmxRWXV72z11h9vBFavXt7siyuTn7oaFcVSGXHCde7MYSeRhFXcJGFs4LTqa/slRmPbuE9fmSzoprS287Y2sRxFObbuUk6Z9vhnWO9OMx358s4rvdUkO3aaBUOiWEr4ZaSMCZpmc2EFGbpSsmL6DFVZmnGlHm6CqNEiVbrWNlbs/hhPb2i6TuGo/iBoTStBIwjzCvyasWuEWD1ZYRfye/V2ptZlmYOF0+4ZP+GBux0FsbRn+FjzLZWKeNuhwXTy2QeM/U7uO8z4DBxVdVZlUOEFQUfQJvVTGNUhxHhgs97LAuWb2yqaqUlZcmKURiX7LT2gGD/LcW6i536uK3krCDV4rHn00zDmhq9i21E2rUX0QKdPmHuV/q0XR1bBv9nn8owzk+bi/x0tt1GX+rQ7TaHCBpWYPaokOB5g9khIMvwevTBFyI5mDqYaJcgQMckMDwQGnEN3wuEaISaPhgrEMfMhrMKXAkrS/d8y/dAgEFvJHUT++QCRq9Ck9G7eN+zXdrRmvpVVZOXSFj21BecHdQBGfTFHLQXikLocEJyybji+GiN33nn/N0T+NmZWLAUS1TRN3cTJNrXA/JeLH0YDqZDWyxUTbsApqPlEiGU3zNBSIPAM8VIHW1yrk06GurB3NSDgTkWIyqXLxR6CMulx8PiSKYlxBoOYB6OPPtefBvRFC5WKJYpERf9FYREAzyQJlMHVgl9WfK8iLksx6e25w7+WaJLTZgTagYuFmfY364nxA+wOE9MeESGdCKEohnvLKta7fCeKovCGC3SDJGq9+RbtkZpWSAO9T3cpxbxxPxdkDbGZjCUFYwOLCN9QrFYZiPD1gcgLMMijjgnXQNGyrb6v4k1BIyTjo+B4/N4i3FgRQvfEyJet6powSq8SSSUJiAcGxvyigUrow4d9cXtKRDID3pUzOlB7wD1bXtE4h+sHOMxsSVLp72q7YICZA88SXnnKYzh9dce+LopxNv0zahz+QJT1N6Ib4rQ9ubeCUyxVGFLUOGI+14Yzn+zddDHQ/PhODWdP6OQkVgLsBaEciAJJWD9lGkJtnL60JY0AD/9cg6MkcOjdIQYjRwepWPEaOT4ktYYqG5HlzzhwGN0d6QY3R0pRnZ/cIeFQOca0De773jiYvIjCMccYlscI9h9eOTbkljD/HJsB4tDBOPj8EwT35/eAdf+iHI8UoYMvUD8IASvtHRsyqBgpXZIvf4xlo36nrhCul4AbFZtvGvXvw1lDEFA/AHjoSMEcsYE9hqI4okjhmpK4Ezd/H199lpNJSP9Hm2bn2ixe6nshit22kbdLqo+c7S/7Hnk25OgZ8llk1R7S+Trt1/Fy79i7Ufqr4zbD5Z/Ae5zuwPQHAAA</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-68a07bec-4426-4aa0-b70a-555b6d09faad\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (RemoveObjectFromWorkflowAction):\nWorkflow=\nMessage=Workflow Completed\n\nAction #2 (ReferenceOtherBABusinessAction):\nReferencedBA=ApproveAction\n\nAction #3 (ReferenceOtherBABusinessAction):\nReferencedBA=\n -->\n        <Configuration>H4sIAAAAAAAA/92TMU/DMBCF9/4KyzspFQtDksoBFXWAViWIMTLJxbg4tmU7Af49bk3SIJShjKzvfN+9e7a1aBmXBdVacLAFr4tSyZqz2HrBpTqUg5bEy49GoA6M5UomeBFdYgSyVBWXLMFP+eriGi/TWZy1lkuwdtcKSGcIDcL2iEPjepDWtwneQaM62LzsoXQro5pnZd5qod5J6fw4fAB51JYa2oDzHoIwltAB07dhlH9qSPCedjQSVLLo0RlvFKfxfOiYYNx7c5TBNKIfgm5Uo4Xvq35BR8LRajz/mcI5wdRgfM6wca9gMtKfOjOYAVNlZHozorXx1xDY/2WpjETEWs7kXb5+WFz9Ya2TEh719//4AoipNEc/AwAA</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-57234695-40ee-491e-90e7-b65fe921f01d\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-8a4f3fc5-4632-49e7-af9d-16b8f442e0c0\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-6cfdf50d-abab-4d45-a70b-f1c15934b3d8\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-81a5902f-e283-4d4b-b540-d46925265ae3\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-63fae91c-646c-4125-a1e8-3a5ad545819c\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-ba7921c9-75ab-45c0-97c6-6be775817536\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n    </STEPWorkflow>\n  </STEPWorkflows>\n\n  <ActionSetList>\n    <ActionSet ID=\"PMDM.UA.EnrichmentView\" Type=\"user\">\n      <Name QualifierID=\"Qualifier root\">Enrichment, View</Name>\n      <ActionLink ActionID=\"View metadata for product reference\"/>\n      <ActionLink ActionID=\"View metadata for product classification\"/>\n      <ActionLink ActionID=\"View metadata for attribute to classific\"/>\n      <ActionLink ActionID=\"View Category Profile\"/>\n      <ActionLink ActionID=\"View Collection Group\"/>\n      <ActionLink ActionID=\"View product attribute value\"/>\n      <ActionLink ActionID=\"View Collection\"/>\n      <ActionLink ActionID=\"View attribute to classification link\"/>\n      <ActionLink ActionID=\"View classification\"/>\n      <ActionLink ActionID=\"View metadata for classification\"/>\n      <ActionLink ActionID=\"View asset\"/>\n      <ActionLink ActionID=\"View metadata for asset (property value)\"/>\n      <ActionLink ActionID=\"Download asset\"/>\n      <ActionLink ActionID=\"View entity\"/>\n      <ActionLink ActionID=\"View asset reference\"/>\n      <ActionLink ActionID=\"View metadata for asset reference\"/>\n      <ActionLink ActionID=\"View metadata for entity\"/>\n      <ActionLink ActionID=\"View metadata for classification referen\"/>\n      <ActionLink ActionID=\"View data container\"/>\n      <ActionLink ActionID=\"View product\"/>\n      <ActionLink ActionID=\"View metadata for data container\"/>\n      <ActionLink ActionID=\"View metadata for product\"/>\n      <ActionLink ActionID=\"View product reference\"/>\n    </ActionSet>\n  </ActionSetList>\n\n  <EventProcessors>\n    <EventProcessor ID=\"MatchingEventProcessor\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"MatchingEventProcessor\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">1000</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=STEPSYS</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"MatchingEventProcessorPlugin\">\n  <simple id=\"ApplicationStrategy\">bothMatchCodeAndMatchingAlgorithm</simple>\n  <simple id=\"WorkspaceTriggering\">MainAndApproved</simple>\n  <simplelist id=\"MatchingAlgorithms\">\n    <entry>step://matchingalgorithm?id=OrganizationMatching</entry>\n    <entry>step://matchingalgorithm?id=OwensCorningContactMA</entry>\n  </simplelist>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">Matching Event Processor</Name>\n      <Configuration>H4sIAAAAAAAA/6VUUW/aMBB+76+Isom3EapJUzUgjIZ0mwQiA7puT5OJr8GqY2c+h5b++l0Swgo0bBJ5Sex8933nz3cXaHUvktwwK7Tq9wZPqXTWYLBYuZftjuuAijUXKum7t4ubd1fuwL/oZTJPhHIE77vhGpSNjI4BUZtrhhC8pHT9C8fpoUgzCSV+BphphWIp4RbBuD5ayD56Xk6LAQHmizCa/5z3vCrmMPya2Xg1F8/g+pedTqcJNmIbXOgZWCZUmSGexkdGaCPshlBNkG855KQafo9m06AJNGFPU8m3dkAl2oT9onOzS/Ig6sNVU9RYKMAIzPXn6PSRbpiQxG02oWJkNnd9a3L4J5qohSbw+w5vwk4zK1KBVsRjHT/sa9wziY0irwTWck0h83gFPJfwYzL+NQqjWRgMF+HI9VvSdveKtfU717ZLFVt9DFqJ7bbeXHa6BZIKwAjA3Z7j1LsbJ5YMcRse67RN6S11O7dCtnErzuFeKFGUc7vOZ7TbeltvUZ2ZzUSo3ELFtpXaPlD8rtOsXt5ekt5hln896XlVx9EXZlJYPzRGmxlk2lgw57dtmNL173Ee9e0Ns0yWuCHnhqJcX3O2/FTahRvq4hTb5F/TRZ4R+lXFMudwx4yiA+FhIR+ZE5XL4NzJNilGDf3et6oiP7JnmJF0XGrNLWlCQrNkqe2qZAk0h6HiNeNQJsW0Wb12Ykn9sSe/A2MpSsCybuu5mW5hrIYVQ3RqEqbEc5lOzdPzqrj/5ngEhYEuPScvLYvtZPiCpM69SPjQjTttHjBjMSyMSBJqcZW4/oTGHJlAThm9Bn7iAv8Any35WpUGAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"1000\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nConsumerSuspended=\nIndexWordHierarchyTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"ContactPerson\"/>\n    <ObjectType ObjectTypeID=\"OrganizationCustomer\"/>\n    <ObjectType ObjectTypeID=\"Supplier\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=MainAndApproved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=MatchingTriggers\nobjecttype=ContactPerson;OrganizationCustomer;Supplier -->\n        <Configuration>H4sIAAAAAAAA/9VUwXLbIBC95ys0uqdKppcehDMeO2k109QeS0nOGK0VGgQMC66Try+Wwa4rJfExucHuW3jvscsYEWwFrRbUAsmvNq1I1mCQK0nSyy8XaQKSqZrLhqR31c35t/RqdJaX1fX8fG5U7Zgt5EqZllpfkSwAlVhDIQWXsIAVknRFBUKa3Cgh1J+ZP9rwGkq3DNUHxPVGK2OnYPga6rG1Zp8anSVJPt4SxYAq+QuQ9JZL3rq2y0dE1oGzHdozzV6hOspRC25H24v40ln4FB5Esj85bpW+q24iKCJfcdZFP4PEY8ZvvvcxNCkkE66GOTUgLUmtcZCGbvjv0FOM8zDXgikdapA11CFe+PXmQZn6BwdDDXt8rgxvGq9GNgEyW/4GZqtnDd+NctonkOSH4MIJwI7WQOwomhyWxZSkpdP+fDA7UW8hZ6ahkr90giYOrWpPqfKSLWV27rtCyehcj2M/FGQHLz98j+UR/WprRcRgRwUXf9EWoqP/TKV8ygab0/MHfwjb1/TZx0zYToxC7JV139pw6p4KBxh3U2pp96DePIPv3ZpnYbt79OjQCXNy6H4/FE+oKQNy6y8dy3qstVHr/eTcSf7xm8Or3/I89Xu9DwK+hj2NndBNvjfCskevKJiEAaW6AbJ+gMjRzPXSF2RoknuwSxK/hpD6C/ci12bUBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-03-26 02:02:35\"    >\n\n  <BusinessRules>\n    <BusinessRule ID=\"BA_StartMaintenance\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"web\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n    <binding alias=\"step\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar instance = node.getWorkflowInstanceByID(\"SalesItemOnboarding_WF\");\nif(!instance){\n\tnode.startWorkflowByID(\"SalesItemOnboarding_WF\", \"Starting Maintenance Workflow\");\n}\n\nvar state = step.getWorkflowHome().getWorkflowByID(\"SalesItemOnboarding_WF\").getStateByID(\"InitialEnrichment_SIO\");\n//log.info(state.getID())\nweb.navigate(\"\", node, state);\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"BassProShopRules\"/>\n      <Name QualifierID=\"Qualifier root\">BA_StartMaintenance</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/71UXW/aMBR9Xn+Fl0mISF3Svk0iARXaapmGqAYTj+gSblJ3jp3ZDm037b/PjkOaTEKjL31B5lzf8+HYt2RVTvkGypJRVBuabVLBM5pHygB6XLqyw+Jo8lQwskepqOCxdxlceAR5KnaU57H3fXX78ZM3GZ9F00pRjkp9qxiOzwhpgbuajnTrDkquY+8L7GGZSlrqQ/0q1UZoTfX9lPKd8iyXYbsDCQVqY8MBXYhYJrebrJ5LjL0HQxsw4Hmw1NIY9cYDpke9JIOfldAjE8ctXjK5/3Uwt5wMcj0afLi8GFkSqzOHssUIOaDEnJiWkGpjx3XOKimR68X2AVNtt8yaHY3mFaOgmr1c7LCB22AzBqqtV4y5VXiS9hw45Cj/o/qI27cXVRrL16pazfDfs4/Ctv/IrbiRUsi5uVbG1lvcjq8iBUZ/wZZho7rComSgcVrxHcPwFd5f3sZx43uQhHKlgadIYmIvUZCjXgv5I2PiMWlK0+fkeuj8LoGhSjQWC74VIG2ozfrW1XxnjWbD9wdS/3cNvauZDSRb7hM5z0mzx/aaApkD5Rp57fjA1ZP/407T/th4RlTbbPbWdLN9FgUO/S5yakrbs7SsnYaEU02B3XBJ0/vCPNrNMln0bIUhE3lAeSaGtSXLYtp9v66ahxRw2NPcVBrKQ357dOcuhn/k23eAer5FYX96mvka9gdsM6v/AoZEpV/LBQAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n  </BusinessRules>\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"SAP_Material_Workflow\">\n\n<!-- Definition:\n<scxml name=\"SAP_Material_Workflow\" initial=\"SAP_1_ReviewMaterialRequest\" version=\"0.9\">\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=1160.0 h=710.0  </editorLayout>\n  <final id=\"SAP_End\" name=\"SAP_End\" discontinued=\"false\">\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=590.0 w=150.0 h=30.0  </editorLayout>\n    <onentry businessactionid=\"acn-68a07bec-4426-4aa0-b70a-555b6d09faad\"/>\n  </final>\n  <parallel id=\"SAP_ParallelState\" name=\"SAP Parallel State\" discontinued=\"false\">\n    <transition target=\"SAP_FinalReview\"/>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=20.0 y=170.0 w=1020.0 h=310.0  </editorLayout>\n    <onentry businessactionid=\"acn-8a4f3fc5-4632-49e7-af9d-16b8f442e0c0\"/>\n    <state id=\"SAP_Cluster1_BasicData\" name=\"SAP_Cluster1_BasicData\" discontinued=\"false\" initial=\"SAP_2_BasicData1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=20.0 y=40.0 w=200.0 h=240.0  </editorLayout>\n      <final id=\"SAP_2_BasicData3\" name=\"SAP_2_BasicData3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=190.0 w=140.0 h=30.0  </editorLayout>\n      </final>\n      <onentry businessactionid=\"acn-57234695-40ee-491e-90e7-b65fe921f01d\"/>\n      <state id=\"SAP_2_BasicData1\" name=\"Basic Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_2_BasicData2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=40.0 w=140.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-81a5902f-e283-4d4b-b540-d46925265ae3\"/>\n      </state>\n      <state id=\"SAP_2_BasicData2\" name=\"Basic Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_2_BasicData3\"/>\n        <transition event=\"Rework\" target=\"SAP_2_BasicData1\">\n          <editorLayout>   edge-path [SAP_2_BasicData1]  x=190.0 y=100.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_2_BasicData3\">\n          <editorLayout>   edge-path [SAP_2_BasicData3]  x=190.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=110.0 w=140.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster2_LogisticEnrichment\" name=\"SAP_Cluster2_LogisticEnrichment\" discontinued=\"false\" initial=\"SAP_3_Logistic1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=250.0 y=40.0 w=240.0 h=240.0  </editorLayout>\n      <final id=\"SAP_3_Logistic3\" name=\"SAP_3_Logistic3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=190.0 w=140.0 h=30.0  </editorLayout>\n      </final>\n      <onentry businessactionid=\"acn-63fae91c-646c-4125-a1e8-3a5ad545819c\"/>\n      <state id=\"SAP_3_Logistic1\" name=\"Logistic Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_3_Logistic2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=40.0 w=140.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-6cfdf50d-abab-4d45-a70b-f1c15934b3d8\"/>\n      </state>\n      <state id=\"SAP_3_Logistic2\" name=\"Logistic Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_3_Logistic3\"/>\n        <transition event=\"Rework\" target=\"SAP_3_Logistic1\">\n          <editorLayout>   edge-path [SAP_3_Logistic1]  x=200.0 y=90.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_3_Logistic3\">\n          <editorLayout>   edge-path [SAP_3_Logistic3]  x=200.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=60.0 y=110.0 w=140.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster3_PlanningEnrichment\" name=\"SAP_Cluster3_PlanningEnrichment\" discontinued=\"false\" initial=\"SAP_4_MRP1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=520.0 y=40.0 w=240.0 h=240.0  </editorLayout>\n      <final id=\"SAP_4_MRP3\" name=\"SAP_4_MRP3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=190.0 w=160.0 h=30.0  </editorLayout>\n      </final>\n      <state id=\"SAP_4_MRP1\" name=\"MRP Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_4_MRP2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=40.0 w=160.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-c67e0695-942c-48cf-a213-d94d0d7989d5\"/>\n      </state>\n      <state id=\"SAP_4_MRP2\" name=\"MRP Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_4_MRP3\"/>\n        <transition event=\"Rework\" target=\"SAP_4_MRP1\">\n          <editorLayout>   edge-path [SAP_4_MRP1]  x=200.0 y=90.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_4_MRP3\">\n          <editorLayout>   edge-path [SAP_4_MRP3]  x=190.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=120.0 w=160.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n    <state id=\"SAP_Cluster4_FinanceEnrichment\" name=\"SAP_Cluster4_FinanceEnrichment\" discontinued=\"false\" initial=\"SAP_5_Finance1\">\n      <assignee id=\"Super user\" type=\"group\"/>\n      <editorLayout>   node-size-and-position x=790.0 y=40.0 w=210.0 h=240.0  </editorLayout>\n      <final id=\"SAP_5_Finance3\" name=\"SAP_5_Finance3\" discontinued=\"false\">\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=190.0 w=150.0 h=30.0  </editorLayout>\n      </final>\n      <state id=\"SAP_5_Finance1\" name=\"Finance Data Enrichment\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_5_Finance2\"/>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=40.0 y=40.0 w=150.0 h=30.0  </editorLayout>\n        <onentry businessactionid=\"acn-ba7921c9-75ab-45c0-97c6-6be775817536\"/>\n      </state>\n      <state id=\"SAP_5_Finance2\" name=\"Finance Data Approval\" discontinued=\"false\">\n        <transition event=\"Submit\" target=\"SAP_5_Finance3\"/>\n        <transition event=\"Rework\" target=\"SAP_5_Finance1\">\n          <editorLayout>   edge-path [SAP_5_Finance1]  x=170.0 y=100.0  </editorLayout>\n        </transition>\n        <transition event=\"Reject\" target=\"SAP_5_Finance3\">\n          <editorLayout>   edge-path [SAP_5_Finance3]  x=170.0 y=170.0  </editorLayout>\n        </transition>\n        <assignee id=\"Super user\" type=\"group\"/>\n        <editorLayout>   node-size-and-position x=20.0 y=120.0 w=150.0 h=30.0  </editorLayout>\n      </state>\n    </state>\n  </parallel>\n  <state id=\"SAP_1_ReviewMaterialRequest\" name=\"Review Material Request\" discontinued=\"false\">\n    <transition event=\"Submit\" target=\"SAP_ParallelState\"/>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=100.0 w=160.0 h=30.0  </editorLayout>\n    <onentry businessactionid=\"acn-e1b82325-a1b7-45f7-8c29-e4a9c323f345\"/>\n  </state>\n  <state id=\"SAP_FinalReview\" name=\"Material Release\" discontinued=\"false\">\n    <transition event=\"Submit\" target=\"SAP_End\"/>\n    <transition event=\"Rework_Material\" target=\"SAP_1_ReviewMaterialRequest\">\n      <editorLayout>   edge-path [SAP_1_ReviewMaterialRequest]  x=1090.0 y=520.0 x=1100.0 y=110.0  </editorLayout>\n    </transition>\n    <transition event=\"Reject\" target=\"SAP_End\">\n      <editorLayout>   edge-path [SAP_End]  x=390.0 y=530.0 x=390.0 y=610.0 pointx=0.0 pointy=39.0 offsetx=-59.0 offsety=-5.0  </editorLayout>\n    </transition>\n    <assignee id=\"Super user\" type=\"group\"/>\n    <editorLayout>   node-size-and-position x=450.0 y=510.0 w=150.0 h=30.0  </editorLayout>\n  </state>\n</scxml> -->\n      <SetupGroupLink SetupGroupID=\"SAPWorkflows\"/>\n      <Name QualifierID=\"en-US\">SAP Material Workflow</Name>\n      <ValidUserTypeLink UserTypeID=\"PMDM.PRD.InternalSourceRecord\"/>\n      <Configuration>H4sIAAAAAAAA/82ZXW+jRhSG7/Mrpr6feD7BVHak7XYrrbSrjRJVvagqa4CDQ0sGCjhO9td3+IohAYPjNNmbGJiv97w58zDMqG0ef9ZhHqocvumPKZjfVaCiDJZZEoX5BdyDt83h2kvDJP8S3oY5+JdpeBdGsIFslafbpmYUZjnob/rzbRKnOaS/J/7TzjLv/jZaLcsfFJbDRqvZ9YfLNV1fwV0Iu6+mSWqeXsG/W8jyGdLqFqoqTdH6jzj9J4ji3QzdQZqFsV7NyLkzQ6ZTna1mN3me/Dyf73a78x0/j9PNnBEi58Sel+POLpY/YYwQ0rEPOAu/A1bax0mcGTmxRvcrck7QQ/l3t6LUKi5uVjYtfhHGF2domeVGC/LDzIt1Huot+KtZGecMhf6kgKpC1JSipnhUnJCVPEpqgbU+vpeHlrEGnacPyN1moYYsU17RupCmPI2BugvGmcSKujYWMrDxwmMOBqEcjzMecCGNkHndy8VZ0WWeKl2LgDvz3ES5dU02zFCu0g3kVdSXKlVRBNF1YVDRx75Z1Y3KsnCjASqftgmkaJtBanp5SIwtmzTeJkW7pt7F2XJeul00XyZ194et74rYZxBqClAjb8RrVltt11YTVntNp5u9UCLggSexsDjDwgEbq8DxMbXcRSAEA+KRQ2a33f0t1EUiFZnzOt4WrSbk8sdoa6Z2Ste/qCz0flW5mnVnL9uX0PaU7Wk41XRRec5IZTkTLcvHPJc248JyjOcEwHhOATvEGO9aMgCH0YBQ/6nnL7Rvkn999pRPUPEIfdJp6N3cGi3HukPF88k/npFUSYewAANbcCx84WJXCoJ9YxmTzJIK+DN3pgKgFSrrydFTCXC036zH7w9JksZ3asKboAEAPWj30c7wfmee93MFO/OuG+yHPkYA/gZwovIb9OfTOn8hEwh12m+NQvpUAX+DdziQMQG8K8A+JODU3AgKQE7ODd5GVW9Uo4nhHEyMl4RThtCN6whEs/WXeGPWYaHXgkqX1fyxSh+qezsYt0N2oS1eAG2LBwoc6mFLWB4WtFyfwAJzJZUvhVxQx3tLaPf41Dw4HtvW6di2vMAPJPGxcpVbYNv4YxMXB9Sj0uHC5f7ixdjeB/t+1G5r6DV8OretV+T2XtZJ2G6n0wA0W1VKZlZrn4eVczqzu0GMjM47o787sdvaW8DqC2k0IX40XvP1ZaS0DvVmkNdi/fXqsg/VvW1HnZBsCqr/P6x2wzHXx8NUdGHa8wE8ClPPsoEUXwiOYOZls/ACrBjl2HeET3zbWTj+s0/gycQoQ3w/jtbDP3V4Oj1rfyk7aPARXpwEzjphBqhVlb42Lh9VD4/5gy1ra8UtSjyJYfS/7Rz8b789GkW53aE9GCSjbGr00bGv+agXttOFI31jOD6PqL4/GZLyBZB0le0w6jnYlsWKU3oEO7ZnYcsF2zbrcVty68WQfAz1/UDZktDn9vHbBOyg2Uf6chI0W4k0ALF9jQpk9uttEHRCODw47w7+3hRtKW8RpSeeyRsD/anwGjRdzpvd8HJrfEK+t7ePm9XB/vwhApVN2BNvzh8kHY5wYqp/0n7fNvZQhj8eAHV7GTpoGUi9gepVHpKa/9Ui+b74gGx/SfZm5sRJUQXbK8kUlcPzZnRejd7cW+XgSRzqvDqcKi8fTLm5joMgA/Mcy/3dg7kblHvaCcyESVRE2po97cDHs+rAvBnbH1koYrtgVvOCWVgoRbBrE4WllK7lEydQ6tmm/4kTsThOvKiPNv8DTcbQlEkdAAA=</Configuration>\n      <LocalBusinessRule ID=\"acn-c67e0695-942c-48cf-a213-d94d0d7989d5\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-e1b82325-a1b7-45f7-8c29-e4a9c323f345\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (ReferenceOtherBABusinessAction):\nReferencedBA=\n\nAction #2 (ReferenceOtherBABusinessAction):\nReferencedBA=\n\nAction #3 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"InternalSource\" type=\"ObjectType\" contract=\"ObjectTypeBindContract\">\n      PMDM.PRD.InternalSourceRecord\n    </binding>\n  </bindings>\n  <messages/>\n  <javaScript>\n//Begin Setting Control Record Attributes\n//node.getValue(\"SAP-TABNAM\").setSimpleValue(\"EDI_DC40\");\nif (node.getObjectType().getID().equals(InternalSource.getID())) {\n\n\nnode.getValue(\"SAP-DIRECT\").setSimpleValue(\"2\");\nnode.getValue(\"SAP-IDOCTYP\").setSimpleValue(\"MATMAS05\");\nnode.getValue(\"SAP-MESTYP\").setSimpleValue(\"MATMAS\");\nnode.getValue(\"SAP-SNDPOR\").setSimpleValue(\"STEP\");\nnode.getValue(\"SAP-SNDPRT\").setSimpleValue(\"LS\");\nnode.getValue(\"SAP-SNDPRN\").setSimpleValue(\"STIBOPIPO\");\nnode.getValue(\"SAP-RCVPOR\").setSimpleValue(\"SAPS4S\");\nnode.getValue(\"SAP-RCVPRN\").setSimpleValue(\"S4HCLNT100\");\n//End Setting Control Record Attributes\n\n/*node.getValue(\"SAP-MSGFN\").setSimpleValue(\"005\");\n  //node.getValue(\"SAP-MATNR\").setSimpleValue(\"000000000000002123\");**\nnode.getValue(\"SAP-MTART\").setSimpleValue(\"FERT\");\nnode.getValue(\"SAP-MBRSH\").setSimpleValue(\"M\");\nnode.getValue(\"SAP-MATKL\").setSimpleValue(\"L004\");\nnode.getValue(\"SAP-MEINS\").setSimpleValue(\"PCE\");\nnode.getValue(\"SAP-GROES\").setSimpleValue(\"10X20X10 CM\");\nnode.getValue(\"SAP-BRGEW\").setSimpleValue(\"1.500\");\nnode.getValue(\"SAP-NTGEW\").setSimpleValue(\"1.500\");\nnode.getValue(\"SAP-GEWEI\").setSimpleValue(\"KGM\");\nnode.getValue(\"SAP-VOLUM\").setSimpleValue(\"0.002\");\nnode.getValue(\"SAP-VOLEH\").setSimpleValue(\"MTQ\");\nnode.getValue(\"SAP-TRAGR\").setSimpleValue(\"0001\");\nnode.getValue(\"SAP-SPART\").setSimpleValue(\"00\");\n //node.getValue(\"SAP-MATNR_LONG\").setSimpleValue(\"000000000000002123\");**\n //node.getValue(\"SAP-MATNR_EXTERNAL\").setSimpleValue(\"000000000000002123\");**\nnode.getValue(\"SAP-SPRAS\").setSimpleValue(\"E\");\n //node.getValue(\"SAP-MAKTX\").setSimpleValue(\"Training Material for Stibo Step out SAP\");**\nnode.getValue(\"SAP-SPRAS_ISO\").setSimpleValue(\"EN\");\nnode.getValue(\"SAP-WERKS\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-PSTAT\").setSimpleValue(\"VDLBG\");\nnode.getValue(\"SAP-DISMM\").setSimpleValue(\"ND\");\nnode.getValue(\"SAP-PLIFZ\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-WEBAZ\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-PERKZ\").setSimpleValue(\"M\");\nnode.getValue(\"SAP-AUSSS\").setSimpleValue(\"0.00\");\nnode.getValue(\"SAP-BESKZ\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-LADGR\").setSimpleValue(\"0002\");\nnode.getValue(\"SAP-MTVFP\").setSimpleValue(\"02\");\nnode.getValue(\"SAP-PRCTR\").setSimpleValue(\"YB110\");\nnode.getValue(\"SAP-LOSGR\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-AWSLS\").setSimpleValue(\"000001\");\n //node.getValue(\"SAP-LGORT\").setSimpleValue(\"101A\");**\n //node.getValue(\"SAP-LGPBE\").setSimpleValue(\"STIBO 15\");**\nnode.getValue(\"SAP-MEINH\").setSimpleValue(\"PCE\");\nnode.getValue(\"SAP-UMREZ\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-UMREN\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VOLUM\").setSimpleValue(\"0.002\");\nnode.getValue(\"SAP-VOLEH\").setSimpleValue(\"MTQ\");\nnode.getValue(\"SAP-BWKEY\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-VPRSV\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-STPRS\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-PEINH\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-BKLAS\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VMVPR\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-VMSTP\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-VMPEI\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VMBKL\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VJVPR\").setSimpleValue(\"S\");\nnode.getValue(\"SAP-VJSTP\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-LFGJA\").setSimpleValue(\"2020\");\nnode.getValue(\"SAP-LFMON\").setSimpleValue(\"6\");\nnode.getValue(\"SAP-EKALR\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-VPLPR\").setSimpleValue(\"0\");\nnode.getValue(\"SAP-MLMAA\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-MLAST\").setSimpleValue(\"3\");\nnode.getValue(\"SAP-VJBKL\").setSimpleValue(\"7920\");\nnode.getValue(\"SAP-VJPEI\").setSimpleValue(\"1\");\nnode.getValue(\"SAP-VKORG\").setSimpleValue(\"1010\");\nnode.getValue(\"SAP-VTWEG\").setSimpleValue(\"10\");\nnode.getValue(\"SAP-SKTOF\").setSimpleValue(\"X\");\nnode.getValue(\"SAP-MTPOS\").setSimpleValue(\"NORM\");\nnode.getValue(\"SAP-ALAND\").setSimpleValue(\"DK\");\nnode.getValue(\"SAP-TATY1\").setSimpleValue(\"MWST\");\nnode.getValue(\"SAP-TAXM1\").setSimpleValue(\"1\");\n*/\n}\n\n//SVBU **\nif(node.getName() == null){\nnode.setName(node.getValue(\"SAP-MAKTX\").getSimpleValue());\n}\n  </javaScript>\n</config> -->\n        <Configuration>H4sIAAAAAAAA/+VZbW+jRhD+fr9i5UpRHOkA55K+KHGixWAfMW9lN7bTLxax1z5OGHy8nNqe7r93MY4dkvPuXGtVleoPGJblmWdmnxkGWMflMkqm4XodRyyfRovpLE0W0fI65wPFzbo+XY91r29/X8XoM8vyKE26rY6itRBLZuk8Spbd1j3tv/25dXvz5lov8yhheR6UMbt5g9BuwN/Aoefn6yHL6LYCtmAZh2Ne8YFlOn6ahWcFN9eqgDiUH2bhihWcQz3wfAg1YOY6biH6x5p1Wx/Dz6ESh8lSIUXGybZurtXdVVtgtYl8rTZJ///8uOPGyCyL1kXTg3FUfNCjZJ6DXalnH/ThJC6uGso6+VSmxRWXV72z11h9vBFavXt7siyuTn7oaFcVSGXHCde7MYSeRhFXcJGFs4LTqa/slRmPbuE9fmSzoprS287Y2sRxFObbuUk6Z9vhnWO9OMx358s4rvdUkO3aaBUOiWEr4ZaSMCZpmc2EFGbpSsmL6DFVZmnGlHm6CqNEiVbrWNlbs/hhPb2i6TuGo/iBoTStBIwjzCvyasWuEWD1ZYRfye/V2ptZlmYOF0+4ZP+GBux0FsbRn+FjzLZWKeNuhwXTy2QeM/U7uO8z4DBxVdVZlUOEFQUfQJvVTGNUhxHhgs97LAuWb2yqaqUlZcmKURiX7LT2gGD/LcW6i536uK3krCDV4rHn00zDmhq9i21E2rUX0QKdPmHuV/q0XR1bBv9nn8owzk+bi/x0tt1GX+rQ7TaHCBpWYPaokOB5g9khIMvwevTBFyI5mDqYaJcgQMckMDwQGnEN3wuEaISaPhgrEMfMhrMKXAkrS/d8y/dAgEFvJHUT++QCRq9Ck9G7eN+zXdrRmvpVVZOXSFj21BecHdQBGfTFHLQXikLocEJyybji+GiN33nn/N0T+NmZWLAUS1TRN3cTJNrXA/JeLH0YDqZDWyxUTbsApqPlEiGU3zNBSIPAM8VIHW1yrk06GurB3NSDgTkWIyqXLxR6CMulx8PiSKYlxBoOYB6OPPtefBvRFC5WKJYpERf9FYREAzyQJlMHVgl9WfK8iLksx6e25w7+WaJLTZgTagYuFmfY364nxA+wOE9MeESGdCKEohnvLKta7fCeKovCGC3SDJGq9+RbtkZpWSAO9T3cpxbxxPxdkDbGZjCUFYwOLCN9QrFYZiPD1gcgLMMijjgnXQNGyrb6v4k1BIyTjo+B4/N4i3FgRQvfEyJet6powSq8SSSUJiAcGxvyigUrow4d9cXtKRDID3pUzOlB7wD1bXtE4h+sHOMxsSVLp72q7YICZA88SXnnKYzh9dce+LopxNv0zahz+QJT1N6Ib4rQ9ubeCUyxVGFLUOGI+14Yzn+zddDHQ/PhODWdP6OQkVgLsBaEciAJJWD9lGkJtnL60JY0AD/9cg6MkcOjdIQYjRwepWPEaOT4ktYYqG5HlzzhwGN0d6QY3R0pRnZ/cIeFQOca0De773jiYvIjCMccYlscI9h9eOTbkljD/HJsB4tDBOPj8EwT35/eAdf+iHI8UoYMvUD8IASvtHRsyqBgpXZIvf4xlo36nrhCul4AbFZtvGvXvw1lDEFA/AHjoSMEcsYE9hqI4okjhmpK4Ezd/H199lpNJSP9Hm2bn2ixe6nshit22kbdLqo+c7S/7Hnk25OgZ8llk1R7S+Trt1/Fy79i7Ufqr4zbD5Z/Ae5zuwPQHAAA</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-68a07bec-4426-4aa0-b70a-555b6d09faad\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (RemoveObjectFromWorkflowAction):\nWorkflow=\nMessage=Workflow Completed\n\nAction #2 (ReferenceOtherBABusinessAction):\nReferencedBA=ApproveAction\n\nAction #3 (ReferenceOtherBABusinessAction):\nReferencedBA=\n -->\n        <Configuration>H4sIAAAAAAAA/92TMU/DMBCF9/4KyzspFQtDksoBFXWAViWIMTLJxbg4tmU7Af49bk3SIJShjKzvfN+9e7a1aBmXBdVacLAFr4tSyZqz2HrBpTqUg5bEy49GoA6M5UomeBFdYgSyVBWXLMFP+eriGi/TWZy1lkuwdtcKSGcIDcL2iEPjepDWtwneQaM62LzsoXQro5pnZd5qod5J6fw4fAB51JYa2oDzHoIwltAB07dhlH9qSPCedjQSVLLo0RlvFKfxfOiYYNx7c5TBNKIfgm5Uo4Xvq35BR8LRajz/mcI5wdRgfM6wca9gMtKfOjOYAVNlZHozorXx1xDY/2WpjETEWs7kXb5+WFz9Ya2TEh719//4AoipNEc/AwAA</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-57234695-40ee-491e-90e7-b65fe921f01d\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-8a4f3fc5-4632-49e7-af9d-16b8f442e0c0\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-6cfdf50d-abab-4d45-a70b-f1c15934b3d8\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-81a5902f-e283-4d4b-b540-d46925265ae3\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-63fae91c-646c-4125-a1e8-3a5ad545819c\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n      <LocalBusinessRule ID=\"acn-ba7921c9-75ab-45c0-97c6-6be775817536\" Scope=\"Local\" Type=\"Action\" RunPrivileged=\"false\">\n        <Configuration>H4sIAAAAAAAA/yvIKU3PzItPLCjIyUwtjs9Mi0/Oz0vLTLcpBgqU2BVApCFitjb2Fbk5CmWpRcWZ+Xm2SoZ6BkoKqXnJ+SmZeem2SqEhbroWSvZ2XDZOpcWZeanFxUGlOan6QD7ELADtGXi6awAAAA==</Configuration>\n        <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n      </LocalBusinessRule>\n    </STEPWorkflow>\n  </STEPWorkflows>\n\n  <ActionSetList>\n    <ActionSet ID=\"PMDM.UA.EnrichmentView\" Type=\"user\">\n      <Name QualifierID=\"Qualifier root\">Enrichment, View</Name>\n      <ActionLink ActionID=\"View metadata for product reference\"/>\n      <ActionLink ActionID=\"View metadata for product classification\"/>\n      <ActionLink ActionID=\"View metadata for attribute to classific\"/>\n      <ActionLink ActionID=\"View Category Profile\"/>\n      <ActionLink ActionID=\"View Collection Group\"/>\n      <ActionLink ActionID=\"View product attribute value\"/>\n      <ActionLink ActionID=\"View Collection\"/>\n      <ActionLink ActionID=\"View attribute to classification link\"/>\n      <ActionLink ActionID=\"View classification\"/>\n      <ActionLink ActionID=\"View metadata for classification\"/>\n      <ActionLink ActionID=\"View asset\"/>\n      <ActionLink ActionID=\"Download asset\"/>\n      <ActionLink ActionID=\"View metadata for asset (property value)\"/>\n      <ActionLink ActionID=\"View entity\"/>\n      <ActionLink ActionID=\"View asset reference\"/>\n      <ActionLink ActionID=\"View metadata for entity\"/>\n      <ActionLink ActionID=\"View metadata for asset reference\"/>\n      <ActionLink ActionID=\"View metadata for classification referen\"/>\n      <ActionLink ActionID=\"View data container\"/>\n      <ActionLink ActionID=\"View product\"/>\n      <ActionLink ActionID=\"View metadata for data container\"/>\n      <ActionLink ActionID=\"View metadata for product\"/>\n      <ActionLink ActionID=\"View product reference\"/>\n    </ActionSet>\n  </ActionSetList>\n\n  <EventProcessors>\n    <EventProcessor ID=\"MatchingEventProcessor\" UserTypeID=\"Event Processor user-type root\">\n\n<!-- Definition:\nConfiguration=\n<plugin id=\"MatchingEventProcessor\">\n  <simple id=\"BatchSize\">1000</simple>\n  <simple id=\"DaysToRetainEvents\">1000</simple>\n  <simple id=\"FailRetryEnabled\">true</simple>\n  <simple id=\"FailRetryPeriod\">30d</simple>\n  <simple id=\"HoursToRetainOldProcesses\">168</simple>\n  <simple id=\"LinesPerBGP\">1000</simple>\n  <simple id=\"MaxOldProcesses\">100</simple>\n  <simple id=\"OptimisticLockRetryEnabled\">false</simple>\n  <simple id=\"OptimisticLockRetryPeriod\"/>\n  <simple id=\"Priority\">1</simple>\n  <simple id=\"Queue\">EVPROC</simple>\n  <simple id=\"ResponsibleUser\">step://user?id=STEPSYS</simple>\n</plugin>\nPluginConfiguration=\n<plugin id=\"MatchingEventProcessorPlugin\">\n  <simple id=\"ApplicationStrategy\">bothMatchCodeAndMatchingAlgorithm</simple>\n  <simple id=\"WorkspaceTriggering\">MainAndApproved</simple>\n  <simplelist id=\"MatchingAlgorithms\">\n    <entry>step://matchingalgorithm?id=OrganizationMatching</entry>\n    <entry>step://matchingalgorithm?id=OwensCorningContactMA</entry>\n  </simplelist>\n</plugin>\nScheduleSpecification=\n<entries>\n  <entry class=\"com.stibo.util.scheduledefinition.ScheduleDefinition$ScheduleEveryMinute\" every=\"1\"/>\n</entries> -->\n      <SetupGroupLink SetupGroupID=\"EventProcessors\"/>\n      <Name QualifierID=\"Qualifier root\">Matching Event Processor</Name>\n      <Configuration>H4sIAAAAAAAA/6VUUW/aMBB+76+Isom3EapJUzUgjIZ0mwQiA7puT5OJr8GqY2c+h5b++l0Swgo0bBJ5Sex8933nz3cXaHUvktwwK7Tq9wZPqXTWYLBYuZftjuuAijUXKum7t4ubd1fuwL/oZTJPhHIE77vhGpSNjI4BUZtrhhC8pHT9C8fpoUgzCSV+BphphWIp4RbBuD5ayD56Xk6LAQHmizCa/5z3vCrmMPya2Xg1F8/g+pedTqcJNmIbXOgZWCZUmSGexkdGaCPshlBNkG855KQafo9m06AJNGFPU8m3dkAl2oT9onOzS/Ig6sNVU9RYKMAIzPXn6PSRbpiQxG02oWJkNnd9a3L4J5qohSbw+w5vwk4zK1KBVsRjHT/sa9wziY0irwTWck0h83gFPJfwYzL+NQqjWRgMF+HI9VvSdveKtfU717ZLFVt9DFqJ7bbeXHa6BZIKwAjA3Z7j1LsbJ5YMcRse67RN6S11O7dCtnErzuFeKFGUc7vOZ7TbeltvUZ2ZzUSo3ELFtpXaPlD8rtOsXt5ekt5hln896XlVx9EXZlJYPzRGmxlk2lgw57dtmNL173Ee9e0Ns0yWuCHnhqJcX3O2/FTahRvq4hTb5F/TRZ4R+lXFMudwx4yiA+FhIR+ZE5XL4NzJNilGDf3et6oiP7JnmJF0XGrNLWlCQrNkqe2qZAk0h6HiNeNQJsW0Wb12Ykn9sSe/A2MpSsCybuu5mW5hrIYVQ3RqEqbEc5lOzdPzqrj/5ngEhYEuPScvLYvtZPiCpM69SPjQjTttHjBjMSyMSBJqcZW4/oTGHJlAThm9Bn7iAv8Any35WpUGAAA=</Configuration>\n      <EventQueue QueueStatus=\"Read\" DaysRetained=\"1000\">\n\n<!-- Definition:\nAssetTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Assets ExportSize=\"Minimum\">\n    <Asset/>\n  </Assets>\n</STEP-ProductInformation>\nAttributeTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <AttributeList/>\n</STEP-ProductInformation>\nClassificationTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Classifications ExportSize=\"Minimum\">\n    <Classification IncludeParent=\"true\"/>\n  </Classifications>\n</STEP-ProductInformation>\nConsumerSuspended=\nIndexWordHierarchyTriggering=\nObjectTypeGroupings=\n<ObjectTypeRules>\n  <ObjectTypeRules>\n    <ObjectType ObjectTypeID=\"ContactPerson\"/>\n    <ObjectType ObjectTypeID=\"OrganizationCustomer\"/>\n    <ObjectType ObjectTypeID=\"Supplier\"/>\n  </ObjectTypeRules>\n</ObjectTypeRules>\nProductTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <Products ExportSize=\"Minimum\">\n    <Product IncludeParent=\"true\">\n      <AssetCrossReference/>\n      <AttributeLink/>\n      <ClassificationReference/>\n      <DataContainers/>\n      <Name/>\n      <OverrideSubProduct/>\n      <OverrideSubProduct/>\n      <ProductCrossReference/>\n      <Values/>\n    </Product>\n  </Products>\n</STEP-ProductInformation>\nTriggeringWorkspace=MainAndApproved\nUnitTemplate=\n<STEP-ProductInformation ExportDerivedAttrs=\"false\" FollowOverrideSubProducts=\"false\" ResolveInlineRefs=\"false\">\n  <UnitList/>\n</STEP-ProductInformation>\nVersion=3\nattributeGroup=MatchingTriggers\nobjecttype=ContactPerson;OrganizationCustomer;Supplier -->\n        <Configuration>H4sIAAAAAAAA/9VUwXLbIBC95ys0uqdKppcehDMeO2k109QeS0nOGK0VGgQMC66Try+Wwa4rJfExucHuW3jvscsYEWwFrRbUAsmvNq1I1mCQK0nSyy8XaQKSqZrLhqR31c35t/RqdJaX1fX8fG5U7Zgt5EqZllpfkSwAlVhDIQWXsIAVknRFBUKa3Cgh1J+ZP9rwGkq3DNUHxPVGK2OnYPga6rG1Zp8anSVJPt4SxYAq+QuQ9JZL3rq2y0dE1oGzHdozzV6hOspRC25H24v40ln4FB5Esj85bpW+q24iKCJfcdZFP4PEY8ZvvvcxNCkkE66GOTUgLUmtcZCGbvjv0FOM8zDXgikdapA11CFe+PXmQZn6BwdDDXt8rgxvGq9GNgEyW/4GZqtnDd+NctonkOSH4MIJwI7WQOwomhyWxZSkpdP+fDA7UW8hZ6ahkr90giYOrWpPqfKSLWV27rtCyehcj2M/FGQHLz98j+UR/WprRcRgRwUXf9EWoqP/TKV8ygab0/MHfwjb1/TZx0zYToxC7JV139pw6p4KBxh3U2pp96DePIPv3ZpnYbt79OjQCXNy6H4/FE+oKQNy6y8dy3qstVHr/eTcSf7xm8Or3/I89Xu9DwK+hj2NndBNvjfCskevKJiEAaW6AbJ+gMjRzPXSF2RoknuwSxK/hpD6C/ci12bUBwAA</Configuration>\n      </EventQueue>\n    </EventProcessor>\n  </EventProcessors>\n</STEP-ProductInformation>\n",
   "signatory" : "RMAC",
   "comment" : ""
 }
