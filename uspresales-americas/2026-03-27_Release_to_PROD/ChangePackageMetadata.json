@@ -1,0 +1,640 @@
+{
+  "version" : "2.1",
+  "id" : "2026-03-27 Release to PROD",
+  "name" : "2026-03-27 Release to PROD",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesExtended",
+  "uniqueId" : "cpk-38a297c4-ed91-4726-ab74-b53f6b47eb26",
+  "origin" : "uspresales-americas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Initiate Maintenance And Navigate",
+    "itemURL" : "step://businessrule?id=InitiateMaintenanceAndNavigate",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 1",
+    "itemURL" : "step://objecttype?id=Level1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Category Classification",
+    "itemURL" : "step://objecttype?id=CategoryClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 4",
+    "itemURL" : "step://objecttype?id=Level4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 3",
+    "itemURL" : "step://objecttype?id=Level3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level 2",
+    "itemURL" : "step://objecttype?id=Level2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://businessrule?id=acn-68a07bec-4426-4aa0-b70a-555b6d09faad",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products Hierarchy Root",
+    "itemURL" : "step://objecttype?id=ProductsHierarchyRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products Root",
+    "itemURL" : "step://objecttype?id=ProductsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inventory Food Products Root",
+    "itemURL" : "step://objecttype?id=InventoryFoodProductsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Identifiant externe",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalIdentifier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized Materials",
+    "itemURL" : "step://objecttype?id=UncategorizedMaterialsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prototypes Product Classification",
+    "itemURL" : "step://objecttype?id=PrototypesProductClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-1",
+    "itemURL" : "step://objecttype?id=Level-1",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-2",
+    "itemURL" : "step://objecttype?id=Level-2",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Conditionally Mandatory",
+    "itemURL" : "step://attribute?id=PMDM.AT.ConditionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!Attributes Master Configurations",
+    "itemURL" : "step://attributegroup?id=AttributesMasterConfigurations_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Identifiant parent externe",
+    "itemURL" : "step://attribute?id=PMDM.AT.URL.ProductLink",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sub-Category",
+    "itemURL" : "step://objecttype?id=SubCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: LOV Filter Attribute",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.LOVFilterAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-3",
+    "itemURL" : "step://objecttype?id=Level-3",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-4",
+    "itemURL" : "step://objecttype?id=Level-4",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-5",
+    "itemURL" : "step://objecttype?id=Level-5",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Uncategorized",
+    "itemURL" : "step://objecttype?id=UncategorizedCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level-6",
+    "itemURL" : "step://objecttype?id=Level-6",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prospect Project Attributes",
+    "itemURL" : "step://attributegroup?id=ProspectProjectAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Price",
+    "itemURL" : "step://attribute?id=ListPrice_AT",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "$",
+    "itemURL" : "step://unit?id=iso4217.unit.USD",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Major Category",
+    "itemURL" : "step://objecttype?id=MajorCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!!!Global Standard Attributes",
+    "itemURL" : "step://attributegroup?id=GlobalStandardAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Projects Product Classification",
+    "itemURL" : "step://objecttype?id=ProjectsProductClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CM:Marketing Completeness CA",
+    "itemURL" : "step://attribute?id=MarketingCompleteness_CA",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Subcategory Classification",
+    "itemURL" : "step://objecttype?id=SubcategoryClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "¥",
+    "itemURL" : "step://unit?id=iso4217.unit.JPY",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistic Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.LogisticCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Description",
+    "itemURL" : "step://attribute?id=AttributeDescription",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.MarketingsCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Currency",
+    "itemURL" : "step://unitgroup?id=Currency",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "£",
+    "itemURL" : "step://unit?id=iso4217.unit.GBP",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Validation Engine",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.ValidationEngine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sourcing Attributes",
+    "itemURL" : "step://attributegroup?id=SourcingAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Colony Hardware Attributes",
+    "itemURL" : "step://attributegroup?id=CHAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Bill of Materials Root",
+    "itemURL" : "step://objecttype?id=BillOfMaterialsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Major Category Classification",
+    "itemURL" : "step://objecttype?id=MajorCategoryClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Anzeigesequenz",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Unit Root",
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Project Product Classification",
+    "itemURL" : "step://objecttype?id=ProjectProductClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "But",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Completeness Score",
+    "itemURL" : "step://attribute?id=AttributeCompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Family",
+    "itemURL" : "step://objecttype?id=Family",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contact Person",
+    "itemURL" : "step://objecttype?id=ContactPerson",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Category",
+    "itemURL" : "step://objecttype?id=Category",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Help Text",
+    "itemURL" : "step://attribute?id=AttributeHelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Externe übergeordnete Kennung",
+    "itemURL" : "step://attribute?id=PMDM.AT.ExternalParentIdentifier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hide LOV Value ID From Smartsheet",
+    "itemURL" : "step://attribute?id=PMDM.AT.HideLovValueIdFromSmartsheet",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Conditional Attribute-",
+    "itemURL" : "step://attribute?id=ConditionalAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Buy Item (Buy-Side)",
+    "itemURL" : "step://objecttype?id=BuyItem",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Location Completeness",
+    "itemURL" : "step://attribute?id=LocationCompleteness.AT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Condition Attribute",
+    "itemURL" : "step://attribute?id=ConditionAttribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DisplaySequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization Customer",
+    "itemURL" : "step://objecttype?id=OrganizationCustomer",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vollständigkeitsindikator",
+    "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Food Menu and Recipe Management",
+    "itemURL" : "step://objecttype?id=FoodMenuAndRecipeManagement",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Approve Action",
+    "itemURL" : "step://businessrule?id=ApproveAction",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item",
+    "itemURL" : "step://objecttype?id=Item",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "€",
+    "itemURL" : "step://unit?id=iso4217.unit.EUR",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validation Error Message",
+    "itemURL" : "step://attribute?id=ValidationErrorMessage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "$",
+    "itemURL" : "step://unit?id=iso4217.unit.CAD",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales Item (Sell-Side)",
+    "itemURL" : "step://objecttype?id=SalesItem",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CH Item Attributes",
+    "itemURL" : "step://attributegroup?id=CHItemAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hilfetext",
+    "itemURL" : "step://attribute?id=PMDM.AT.HelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Model",
+    "itemURL" : "step://objecttype?id=Model",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inventory Category",
+    "itemURL" : "step://objecttype?id=InventoryCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Beschreibung",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier",
+    "itemURL" : "step://objecttype?id=Supplier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Source",
+    "itemURL" : "step://attribute?id=ConfigurationSource_AT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-03-26 16:32:05\"    >\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeList>\n\n    <Attribute ID=\"ListPrice_AT\" MultiValued=\"false\" DefaultUnitID=\"iso4217.unit.USD\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">List Price</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\">\n        <UnitLink UnitID=\"iso4217.unit.USD\"/>\n        <UnitLink UnitID=\"iso4217.unit.JPY\"/>\n        <UnitLink UnitID=\"iso4217.unit.CAD\"/>\n        <UnitLink UnitID=\"iso4217.unit.GBP\"/>\n        <UnitLink UnitID=\"iso4217.unit.EUR\"/>\n      </Validation>\n      <AttributeGroupLink AttributeGroupID=\"CHItemAttributes_ATG\"/>\n      <AttributeGroupLink AttributeGroupID=\"SourcingAttributes_ATG\"/>\n      <UserTypeLink UserTypeID=\"SalesItem\"/>\n      <UserTypeLink UserTypeID=\"BuyItem\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <BusinessRules>\n    <BusinessRule ID=\"ApproveAction\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"true\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nnode.approve();\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Approve Action</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/4VSTU/DMAy991dEOVRwoIUbUr+0FZBAmpjYEMcqtFnJlCUhcSv496RN17VCg5v97Dy/51jxpmaiIEpxRk3BdkUpxY7VsbEApMqVHZbE2deBo5Zqw6RI8E1wjREVpayYqBP8un24usVZ6sXLxjBBjXlpOE09hEZg3dOhad1Bj3cJfiIt2ZSaKTjWFyXYQW8MPpZMVAZ3XJZtTTQ5ULAyHDCFUMfkutH2W9EE7y1twImogw1oKxSnPodo5sT/bCRE1o4LTp5c3htzYebXEHkdQTdjRVSfI3REkN0UaFKCleFe5I3WVMDz+56W0LXkQ8cwa8EZMUOvkBUd4NFQzokZ6w3nLgpHHeFUSByO786s5l5rqVd2t6Smf6zof6LTb51n6fwE9rS0bOnFZfSLdAL0XxmH80OxpxTOb2k4yx8pNUU6tgIAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"ContactPerson\"/>\n        <ValidObjectType ID=\"OrganizationCustomer\"/>\n        <ValidObjectType ID=\"Supplier\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"InitiateMaintenanceAndNavigate\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"webui\" type=\"WebUiContext\" contract=\"WebUiContextBind\"/>\n  </bindings>\n  <messages>\n    <message key=\"EditNotAllowedUserAssigned\">\n      <default>You are currently not allowed to edit this {objectTypeName}, as it is currently in task {task} that is assigned to user {assignee}</default>\n    </message>\n    <message key=\"EditNotAllowedUserGroupAssigned\">\n      <default>You are currently not allowed to edit this {objectTypeName}, as it is currently in task {task} that is assigned to user group {assignee}, which you are not a member of</default>\n    </message>\n  </messages>\n  <javaScript>\nvar currentUser = node.getManager().getCurrentUser();\nvar workflowInstancesIter = node.getWorkflowInstances().iterator();\n\nwhile(workflowInstancesIter.hasNext()) {\n    var workflowInstance = workflowInstancesIter.next();\n    if(workflowInstance.getWorkflow().getID().equals(\"SupplierOnboardingSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"SupplierMaintenanceSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"ContactMaintenanceSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"ContactOnboardingSelfService\")) {\n        var task = workflowInstance.getTasks().iterator().next(); //This logic assumes no parallel tasks\n        var assignee = task.getAssignee();\n        if(assignee instanceof com.stibo.core.domain.User) {\n            var canEdit = assignee.equals(currentUser);\n            if(canEdit) {\n            \tvar canEditReturn1 = true;\n            } else {\n            \tvar message = new EditNotAllowedUserAssigned();\n            \tmessage.objectTypeName = node.getObjectType().getName();\n            \tmessage.task = task.getState().getTitle();\n            \tmessage.assignee = assignee.getID();\n            \tthrow message;\n            }\n        } else {\n            var canEdit = currentUser.getAllGroups().contains(assignee);\n            if(canEdit) {\n            \tvar canEditReturn2 = true;\n            } else {\n            \tvar message = new EditNotAllowedUserGroupAssigned();\n            \tmessage.objectTypeName = node.getObjectType().getName();\n            \tmessage.task = task.getState().getTitle();\n            \tmessage.assignee = assignee.getID();\n            \tthrow message;\n            }\n\n        }\n    }\n}\n\n\nvar canEditReturn3 = true;\n\nvar wfOnboarding = node.getObjectType().getID().equals(\"Supplier\")?\"SupplierOnboardingSelfService\":\"ContactOnboardingSelfService\";\nvar wfMaintenance = node.getObjectType().getID().equals(\"Supplier\")?\"SupplierMaintenanceSelfService\":\"ContactMaintenanceSelfService\";\n\n//var screenID = node.getObjectType().getID().equals(\"Supplier\")?\"Details-Supplier-WF\":\"Details-ContactPerson-WF\";\nvar screenID = node.getObjectType().getID().equals(\"Supplier\")?\"WF-SUPPLIER-MaintenanceSS-1-Initial\":\"Details-ContactPerson-WF\";\nvar workflowInstanceIterator = node.getWorkflowInstances().iterator();\nvar existingWFInstance = null;\nwhile(workflowInstanceIterator.hasNext()) {\n    var workflowInstance = workflowInstanceIterator.next();\n    if(workflowInstance.getWorkflow().getID().equals(wfOnboarding) ||workflowInstance.getWorkflow().getID().equals(wfMaintenance)) {\n        existingWFInstance = workflowInstance;\n    }\n}\nif(!existingWFInstance) { \n    existingWFInstance = node.startWorkflowByID(wfMaintenance, \"\");\n}\nwebui.navigate(screenID, node, existingWFInstance.getTasks().iterator().next().getState()); //This logic assumes no parallel tasks\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Initiate Maintenance And Navigate</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/+VYW28iNxR+bn6FS6UokcKwaV9WS0iUa8V2c1EgQn2KzHAYvGts1vZA0mz++x6PPYMHBkqabFWpLwljn/N9527PTHiaMHFPJxPOQN+z4X0sxZAlrYOjhzEnU1CaSdGq7UfvagRELAdMJK3aXfei/r52dLh1cJJqJkDr25RDA581ApnDiYN9BdbhFiHFwk0GR8J9t9Q+a9U+0intxIpNTL5/HBsk6jEzOmFioGsWC9FuqKJjMGiGWwiXiEVy0qT7OIFW7TPCRpyKJOoYhYbWDre5aZY82f6aStNEd9yPuU/uOXPM/TzaTkxz+5f9d00LYnku6aRYIyRfJRgxo2hs0ByneZoqBcJc9z9DbKzIqZfwnMecUe1lhRyAXy4cO+VUF/sp5+5XYyPuHvTvmOWDh4y6gnIG/ZS9lNMyNhaDcNAo9Fek51wpqS4xvzSBfyNNn2RMOfuL9jl41i6MJ5waOEnFgMNCDFeLE//sCf+UKaEKSOxSyx+JkIZQzuUMBsRIAgNmiBkxTZ5klnfr6hVG4nmPUE1wE7fm2tgZhuov5Mn+fUZFmglgDlgiHGKqMYZPfgWefSD+gEdv0jkyXklz7Gy4Q+ljr11dL/95XxMl00ng8R6ZjVg8Io/enswKMoZxH4XlcIOA/G4RV0Ulq+iN6+XvS30+01bX+ZSqPDDWPtIitv+jBMwlFUiudnbtw+lcZGfX8VvNmVRfhuhcW2hDRQy6bUoYvcV9RGMoQo0scLI/GFcOO5Vw0YjqK5wdO7u75MlXDyFV7EhcjSAy9WahzIZLVKG1zuX2Gf6HrynlesdlqpNmB5y6Fn1JlW3+DvBhB9SUxX5k7pJv314DfUkZDkph1d4M285eHMg/EHpdQMKk5YnLmm85WZaji1vlKsmzRxqNru1wLhMW215Nx6Cx0sgEi55z4BmsXiLLuxcJrYAl8Q0IYU34uiikmTdKDvFIG0fasL6MYqkgGsgxhjKyvbDoXM4ZU2F7HylzvDxuQa8tkHsDvGoV8k8B9C2YVIl965RKYRnpmQDXsApk7CaL7VSYkdVzezFAGYBXjsqTNuj662LD1Y3dXovk6yFPT8fgtHOqXWb4et0gvUWsfa1WaJmRkrPc/YqolVZWxrCc4iClWXFxnk15W8X2MoS1oouyeoOc//qDcl46mv6fiS9nv3hyvwKR4vwrJea3UmLmZ+RwPh7XxGr1meAH6dHGh9CHTYdzaGRwPLyhlesOnQ8bH09BRBsNa66OFQC+t72BpWeAHcp1Pd+t9y5K5uX73swbfB2QohCaR/ANTepd1Dt3Nzef2ue39TAsnfp+vS2YYZT/IxMXz9u2P2NfeGGzUPDA8EQUSe8iuHzZt7R117mc71U3ugLk1Ze6sDFffgEqdczSLacyPosEzcoJg378vKyOBKQQr46+TSE+qcLok0c0uGTnHnE14eutGdBm7+CRoFOW2CGcl/NehrtXQbn2thZM841vbksvNMFC9rHloFH+lHO4NV9xX3v8h6PvTBnjUZASAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"ContactPerson\"/>\n        <ValidObjectType ID=\"Supplier\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "RMAC",
+  "comment" : ""
+}
