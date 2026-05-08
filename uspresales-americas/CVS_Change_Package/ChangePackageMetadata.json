@@ -1,0 +1,451 @@
+{
+  "version" : "2.1",
+  "id" : "CVS Change Package",
+  "name" : "CVS Change Package",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesExtended",
+  "uniqueId" : "cpk-f7eaf078-7b75-4557-9136-68e10f601dc5",
+  "origin" : "uspresales-americas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "User Privileges",
+    "itemURL" : "step://attributegroup?id=UserPrivileges",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier Entities Classification",
+    "itemURL" : "step://objecttype?id=SupplierEntitiesClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales, Create",
+    "itemURL" : "step://attributegroup?id=SalesCreate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Finance, Delete",
+    "itemURL" : "step://attributegroup?id=FinanceDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Specialist, View",
+    "itemURL" : "step://attributegroup?id=SpecialistView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Specialist, Create",
+    "itemURL" : "step://attributegroup?id=SpecialistCreate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier, Modify",
+    "itemURL" : "step://attributegroup?id=SupplierModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Finance, Approve",
+    "itemURL" : "step://attributegroup?id=FinanceApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Procurement, Modify",
+    "itemURL" : "step://attributegroup?id=ProcurementModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SupplierAdmin, Create",
+    "itemURL" : "step://attributegroup?id=SupplierAdminCreate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Specialist, Approve",
+    "itemURL" : "step://attributegroup?id=SpecialistApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Line Of Business Survivorship",
+    "itemURL" : "step://businessrule?id=LineOfBusinessSurvivorship",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!Attributes Master Configurations",
+    "itemURL" : "step://attributegroup?id=AttributesMasterConfigurations_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "References Groups - Workbench",
+    "itemURL" : "step://attributegroup?id=ReferencesGroups_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SupplierAdmin, Delete",
+    "itemURL" : "step://attributegroup?id=SupplierAdminDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logisitcs, View",
+    "itemURL" : "step://attributegroup?id=LogisitcsView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier Category",
+    "itemURL" : "step://objecttype?id=PMDM.CLS.SupplierCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Specialist, Delete",
+    "itemURL" : "step://attributegroup?id=SpecialistDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workbench, View",
+    "itemURL" : "step://attributegroup?id=WorkbenchView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistics, Delete",
+    "itemURL" : "step://attributegroup?id=LogisticsDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier, Delete",
+    "itemURL" : "step://attributegroup?id=SupplierDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Procurement, Delete",
+    "itemURL" : "step://attributegroup?id=ProcurementDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SupplierAdmin, Modify",
+    "itemURL" : "step://attributegroup?id=SupplierAdminModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Libraries",
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "InitiatePDXInvitationSupplierCaller",
+    "itemURL" : "step://businessrule?id=InitiatePDXInvitationSupplierCaller",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales, View",
+    "itemURL" : "step://attributegroup?id=SalesView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "French (France)",
+    "itemURL" : "step://dimensionpoint?id=fr-FR",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accumulative Survivorship Library",
+    "itemURL" : "step://businessrule?id=AccumulativeSurvivorshipLib",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Procurement, Approve",
+    "itemURL" : "step://attributegroup?id=ProcurementApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Procurement, View",
+    "itemURL" : "step://attributegroup?id=ProcurementView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SupplierAdmin, View",
+    "itemURL" : "step://attributegroup?id=SupplierAdminView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Specialist, Modify",
+    "itemURL" : "step://attributegroup?id=SpecialistModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier Account",
+    "itemURL" : "step://objecttype?id=SupplierClassification",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : " Contacts)",
+    "itemURL" : "step://businessrule?id=InitiateMaintenanceAndNavigateCentSup",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Alternate Classifications",
+    "itemURL" : "step://objecttype?id=Classification+1+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product to Classification Linkss",
+    "itemURL" : "step://attributegroup?id=ProductToClassificationLinks_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales, Modify",
+    "itemURL" : "step://attributegroup?id=SalesModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contact Person",
+    "itemURL" : "step://objecttype?id=ContactPerson",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales, Approve",
+    "itemURL" : "step://attributegroup?id=SalesApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier, View+",
+    "itemURL" : "step://attributegroup?id=SupplierView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SupplierAdmin, Approve",
+    "itemURL" : "step://attributegroup?id=SupplierAdminApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistics, Modify",
+    "itemURL" : "step://attributegroup?id=LogisticsModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sales, Delete",
+    "itemURL" : "step://attributegroup?id=SalesDelete",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Finance, Modify",
+    "itemURL" : "step://attributegroup?id=FinanceModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Finance, View",
+    "itemURL" : "step://attributegroup?id=FinanceView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization Customer",
+    "itemURL" : "step://objecttype?id=OrganizationCustomer",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier, Approve",
+    "itemURL" : "step://attributegroup?id=SupplierApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "German (Germany)",
+    "itemURL" : "step://dimensionpoint?id=de-DE",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier, Create",
+    "itemURL" : "step://attributegroup?id=SupplierCreate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier",
+    "itemURL" : "step://objecttype?id=Supplier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistics, Approve",
+    "itemURL" : "step://attributegroup?id=LogisticsApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lieferanten Klassifizierung Knoten",
+    "itemURL" : "step://objecttype?id=SupplierClassificationsRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Procurement, Create",
+    "itemURL" : "step://attributegroup?id=ProcurementCreate",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier Account",
+    "itemURL" : "step://referencetype?id=SupplierAccount",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-05-07 10:39:10\"    >\n\n  <BusinessRules>\n    <BusinessRule ID=\"InitiateMaintenanceAndNavigateCentSup\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"webui\" type=\"WebUiContext\" contract=\"WebUiContextBind\"/>\n  </bindings>\n  <messages>\n    <message key=\"EditNotAllowedUserAssigned\">\n      <default>You are currently not allowed to edit this {objectTypeName}, as it is currently in task {task} that is assigned to user {assignee}</default>\n    </message>\n    <message key=\"EditNotAllowedUserGroupAssigned\">\n      <default>You are currently not allowed to edit this {objectTypeName}, as it is currently in task {task} that is assigned to user group {assignee}, which you are not a member of</default>\n    </message>\n  </messages>\n  <javaScript>\nvar currentUser = node.getManager().getCurrentUser();\nvar workflowInstancesIter = node.getWorkflowInstances().iterator();\n\nwhile(workflowInstancesIter.hasNext()) {\n    var workflowInstance = workflowInstancesIter.next();\n    if(workflowInstance.getWorkflow().getID().equals(\"SupplierOnboardingNoSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"SupplierMaintenanceNoSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"ContactMaintenanceNoSelfService\") ||workflowInstance.getWorkflow().getID().equals(\"ContactOnboardingNoSelfService\")) {\n        var task = workflowInstance.getTasks().iterator().next(); //This logic assumes no parallel tasks\n        var assignee = task.getAssignee();\n        if(assignee instanceof com.stibo.core.domain.User) {\n            var canEdit = assignee.equals(currentUser);\n            if(canEdit) {\n            \tvar canEditReturn1 = true;\n            } else {\n            \tvar message = new EditNotAllowedUserAssigned();\n            \tmessage.objectTypeName = node.getObjectType().getName();\n            \tmessage.task = task.getState().getTitle();\n            \tmessage.assignee = assignee.getID();\n            \tthrow message;\n            }\n        } else {\n            var canEdit = currentUser.getAllGroups().contains(assignee);\n            if(canEdit) {\n            \tvar canEditReturn2 = true;\n            } else {\n            \tvar message = new EditNotAllowedUserGroupAssigned();\n            \tmessage.objectTypeName = node.getObjectType().getName();\n            \tmessage.task = task.getState().getTitle();\n            \tmessage.assignee = assignee.getID();\n            \tthrow message;\n            }\n\n        }\n    }\n}\n\n\nvar canEditReturn3 = true;\n\nvar wfOnboarding = node.getObjectType().getID().equals(\"Supplier\")?\"SupplierOnboardingNoSelfService\":\"ContactOnboardingNoSelfService\";\nvar wfMaintenance = node.getObjectType().getID().equals(\"Supplier\")?\"SupplierMaintenanceNoSelfService\":\"ContactMaintenanceNoSelfService\";\nvar screenID = node.getObjectType().getID().equals(\"Supplier\")?\"Details-Supplier-WF\":\"Details-ContactPerson-WF\";\nvar workflowInstanceIterator = node.getWorkflowInstances().iterator();\nvar existingWFInstance = null;\nwhile(workflowInstanceIterator.hasNext()) {\n    var workflowInstance = workflowInstanceIterator.next();\n    if(workflowInstance.getWorkflow().getID().equals(wfOnboarding) ||workflowInstance.getWorkflow().getID().equals(wfMaintenance)) {\n        existingWFInstance = workflowInstance;\n    }\n}\nif(!existingWFInstance) { \n    existingWFInstance = node.startWorkflowByID(wfMaintenance, \"\");\n}\nwebui.navigate(screenID, node, existingWFInstance.getTasks().iterator().next().getState()); //This logic assumes no parallel tasks\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Initiate Maintenance And Navigate Centralzied (Sups &amp; Contacts)</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/91YW28aORR+Lr/Cy0MEEhm2uy9VCUS5NCu6m4sKEdqnyAyHwa2xqe2BsGn+e48vM8xwScMmlVb7AuPL+b5zt2dmPE2YuKOzGWeg79j4LpZizJL20fH9lJM5KM2kaFffRr9WCYhYjphI2tXb/sXhu+pxp3J0mmomQOtPKYcmjjUCmc7Mw74Aq1MhJJ+4cXCkuO6nuuft6kc6p71YsZnJ1k9ig0QDZianTIx01WIh2g1VdAoG1fATxSlikfxu0l/OoF39jLARpyKJekahotXOATetkiUHX1NpWmiOf1jZ5MfOMP94fJCYVsUCWI5LOnNjQrIZgp4yisYG1fASZ6lSIMz18DPExm45CzsC1wlnVIe9Qo4gTOcGnXGq8/WUc//U/CHvAIa3zHLBvaPdQreAYcr24bNszaLhR81cbkcoPigl1SXGkibws0Pyl4wpZ//QIYfA2IfpjFMDp6kYcSj4bPdWEsaB6G+ZEqqAxD6MfEmENIRyLhcwIkYSGDFDzIRp8iBdjK2JV+iBxwahmuAiLq2kMfsN1V/Ig/19REHqNqDPWSI8YqrRdw9hBh6DA/6EZVDpAzJeSXPidbjF3SdBejM3/vN2Jkqms4K1DbKYsHhClkEfpwWZwnSIm+X4Gc74wyJu84jL3mflyI/TetWrduf0nKrMIVYv0ia2vqMEzCUVSKxqdTs4W22p1VsVK7WQ6ssYDeoKbaiIQXdNSX6wvo5IDLdQIx1GBX3IobYVJppQfYU9oVavkwdn3DZGJNsuLZxoywmy8QZFUTtvXvcc/+FrSrmu+Wj0UndIqWsxlFTZor6SPeDjHqg5i0MDrJNv314CfkkZtj5hxV4R3fZTbLI/Ffxpt2RBywLnimwzWJahj0vlzMiiR5rNvq1kLhMW25pMp6Axu8gMk5xz4A5Wl4iyCkUyu2gJQpFBlg8hJ/KdLCgjx3g8TSNt2FBGsVQQjeQUXRjZnC8alHHFVNi6RqoMK/NUoZ4KpIE4iK0jvilAfgKTKvHWGqFSKCM8EuAatglPfaewFQgLsrv/1tZ0ehMEo3LHLFTydb7gs8Iu70QJsc7c3zPYtbxYnxm+W64QutyfIQPXJMxEyUVm7pp38tFWP5XDVgiTSxTOXVe22WgvKhh7nafJC+L42yvHsXR0/L+DuYpmxf/iVGXDwb/nDvbn0njVnJ6we3dXDk3seI+D4P3zm2M4PMeF9vyKWj7d9N/vcUB4PXWsAPDF5xVUPAcsKa4Ps9XDwUVJq2w9aHeDd2wp8k3b7xzdcGrsce2wMHDPsM+LZHBRuErY94jWjktJxvOv7yU5wIuuJsXU3v8AL+Vc6Yze6o918FZeg6j3L5siCEgqO9FceHCkcgVPl6hcSacG8bEOedNCKvf2Fwk6Z4ltPVk6NhxeYwvVk3eKQg979v1i45pdmHCv9kfN8oeDTmU1478thM8U3wFhcQlR/hAAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"ContactPerson\"/>\n        <ValidObjectType ID=\"Supplier\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"InitiatePDXInvitationSupplierCaller\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"true\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"manager\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n    <binding alias=\"log\" type=\"Logger\" contract=\"LoggerBindContract\"/>\n    <binding alias=\"supplierAccountReferenceType\" type=\"ReferenceType\" contract=\"ReferenceTypeBindContract\">\n      SupplierAccount\n    </binding>\n    <binding alias=\"dataIssuesReport\" type=\"DataIssuesContext\" contract=\"DataIssuesContextBind\"/>\n    <binding alias=\"web\" type=\"WebUiContext\" contract=\"WebUiContextBind\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nvar debug = true;\n\nfunction log(message) {\n\t// For debugging purpose. Don't forget to set debug to false when going live.\n\tif(debug) {\n\t\tlogger.info(\"Initiate PDX Invitation Caller: \" + message);\n\t}\n}\n\nfunction findSupplierClassification(supplier) {\n\tvar result = null;\n\tnode.queryReferences(supplierAccountReferenceType).forEach(\n\t\tfunction(reference) {\n\t\t\tresult = reference.getTarget().getParent();\n\t\t\treturn false;\n\t\t}\n\t);\n\treturn result;\n}\n\nvar supplierClassification = findSupplierClassification(node);\n\n// The business action should only be executed if not linked to NoSelfServiceEntities - but I guess you are going to disable the button in this case?\n\nif (supplierClassification) {\n\tvar businessAction = manager.getHome(com.stibo.core.domain.businessrule.BusinessRuleHome).getBusinessActionByID(\"InitiatePDXInvitationSupplier\");\n\tif (businessAction) {\n\t\ttry {\n\t\t\tvar result = businessAction.execute(supplierClassification);\n\t\t} catch(e) {\n\t\t\t//throw e.javaException.getLocalizedMessage();\n\t\t\tlog(e.javaException.getLocalizedMessage());\n\t\t\tdataIssuesReport.addError(e.javaException.getLocalizedMessage());\n\t\t\treturn dataIssuesReport;\n\t\t}\n\t}\n\tweb.showAlert(\"ACKNOWLEDGMENT\", \"PDX Invitation\", \"PDX Invitation was successfully initiated\");\n}\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">InitiatePDXInvitationSupplierCaller</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/7VW32/jNgx+jv8KIg+di9s529uwNC3SJLdla3tFm0P3Vig27eimSD79SJoN/d+Psmy37tr0DuiAALEoiuRHfqRUCldwecvKUnA0tzy/TZXMeXFkSGCPy7AdZKOjk7u1gA1qw5Uc9X9OfuoDylRlXBaj/qfFh/e/9E+Oo6NTZ7hEY66cwOMIoBVcVubg8X4Qzaej/h9sw65TzUvb7I9TS45uuF2dcpmZvrdF1i6ZZmu0FEYQPBaBtxS0YbErcdT/TGYTwWSRXFtNgfaPD4QddpAcfHHKDglO+HjAFNYVsPB5clDYYeQNeB/nrKzWAI0EKFNWs9RSGOHExGmN0n5cfsbUepVJrVH7GgvOTK0rVYa1uAU0Ecy0+06I8DV41e85k6xA/YrHddB6K6dnqnjdp1DFW/m7whwpuyn6Ur/i1riK43qcpspJ2zm6L55UrRNj+VIlqdKYZGrNuEz4uhRJx8acJOGED/u6681DGPgAX4U0ZZbNjXFoPBa8qzjzDJys1bvCUmn7Vim9weUnvt/1Fpff463F3rTL0aA990IDz7RW+pwmAJHz/27kM5Uywf9hS4G1xwVSKZnFUyczgYNvjPlhfL0c8IZpyHDpChiB1Q6HUZQ7WU05oLaI1yGAQ/g36g0G8EHV6jQhCyidLpXBBKZK/mAhV7pAC1aBob9glRY5EwZhu0IJhfLHBN9gEvV4Hlc6le2eqBo14TJXcUjIXHLLCTRcTv+Cudxwy6qwJkwI1L9CndF30MQ4jHr30f0jADmVuKF9xQee87QyEje9Vzn3SdBonLCUBU8WsuQnX/LFod61PWXifR17mBD+GUtXMaFpQoh1oxJQ9lo37UZCOVswn7n40H9TDWk6xx6NV7dOy5BCL7iPen6jFgdjQ4/ZQzDPQiVfe/LgYZLFiGq7WCEs63sOWMigWSknMlBS7GCJgHeYOosZ8BykslRJ+TetqMgX6hpFfo16w1OcSUulQwPvyaCFORTO29wpBwSuZgEdyrjxJAdbebaWHNJdbFfcQMoMnkQR+Ymfh9UWbtm5mgltfYP4XP6u1hg/Py6bY5pu/OTx9e/PVIXo3vmnu/n0CTGJlw+0bPIbVHyRfOzd4AIHrN4FLnRo19VM6ky/BL7iAiXJEt0aag0GdqXVFjDxbT67S7GsTBGUeqJgVs+Tml2+wb9JO6g/HfAJy7JqLn6PkZq6T23V5KYfzfKEaLcdU5PbOuPjyZ8XH2/OZtPfzmcXiyD7sR4A3emwbw+2zFCTpNTJJqcu3xHbQiWztmr3/52rjwTV8+5o0H080vNy0H1f1k/Vr8YAcA/KCgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"true\"/>\n    </BusinessRule>\n    <BusinessRule ID=\"LineOfBusinessSurvivorship\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"targetNode\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n    <binding alias=\"manager\" type=\"Manager\" contract=\"ManagerBindContract\"/>\n    <binding alias=\"log\" type=\"Logger\" contract=\"LoggerBindContract\"/>\n    <binding alias=\"sourceNodes\" type=\"Node\" contract=\"SurvivorshipSourcesBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\n// The data container types that this survivorship javascript will handle. \nvar survivorDataContainerTypeIDsInput = [\"LineOfBusinessData\"];\n\n// This description of your data model describes which attributes and references to handle for each data container type, and how. \nvar survivorshipDataModelInput = {\n    \"LineOfBusinessData\": {\n\t\t// To compare if the source dc instance is the same as the target dc instance, we compare the CombinedUnique Attribute values and Reference targets.\n\t\t// This defines the equals key of your data container instances!\n        \"CombinedUniqueAttributeIDs\" : [\n            \"LineOfBusiness\"\n        ],\n\t   \"CombinedUniqueDctReferenceTypes\" : [\n        ],\n\t\t// These are the attributes and references that will be surviving. Values of Attributes and References not listed will not be copied to the target.\n        \"SurvivingAttributes\" : [\n        ],\n\t   \"SurvivingDctReferenceTypes\" : [\n        ],\n\t\t// These values of attributes and references will not be deleted when any source system delivers a blank value. \n        \"SurvivingAttributesDoNotDelete\" : [\n        \t\t\"LineOfBusiness\",\n\t\t\t\"LineOfBusinessInitialInvoiceDate\",\n\t\t\t\"LastEditDateLOB\",\n\t\t\t\"PriceListType\",\n\t\t\t\"Currency\",\n\t\t\t\"TermsOfPayment\",\n\t\t\t\"LineOfBusinessInvoiceSchedule\"\n        ],\n        \"SurvivingDctRefTypesDoNotDelete\" : [\n        \t\t\"ShipTo\"\n        ]\n    }\n}\n\nAccumulativeSurvivorshipLib.promoteDataContainersAccumulatively(sourceNodes, targetNode, survivorDataContainerTypeIDsInput, survivorshipDataModelInput);\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Line Of Business Survivorship</Name>\n      <Dependency LibraryID=\"AccumulativeSurvivorshipLib\" LibraryAlias=\"AccumulativeSurvivorshipLib\"/>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/7VW32/bNhB+tv6Kmx+CDfDs9m1o7ASO3QIpnCaI3e2hKAJKOklsKVIhKWfe0P99R1GS5diOW6B7MeS74933fXf8UYgy5fKBFYXgaB548hApmfB0bMhgLwrv9rbJ+PLvXMAateFKTvqvh6/6gDJSMZfppP9x9e73P/qXF8H4qjRcojH3pcCLAKA13FXpoOv3puv5pP+erdky0rywjX8aWSr0F7fZFZex6btclO2OaZajJRje0DWBy+SjYbUpcNL/QmmHgsl0uLSagPYvzoQ932Fy9lgqe050/MeWk/9fEfOfl2epPQ9cAlfjhhXVf4DGAqSU1SyyBMOvmJVao7S34ReMrAuZ1RF1rangzNSxlukU7QcVY+1sac0EM02ULIXwX6OT1W+YZCnqE3VzH/Wzii5UerqmUOnPqrcs9ZqvlTYZL5aq1BGaE8VNFeWENj8CwkEYdRs/HrXrjoziW62VvqFZJoH/75FcqIgJ/g8LBdYVV5gXglm8KmUscPSdmLcb8Tjg0QhWGULMLKsawmjDarAUbcBmzNIPN2A6nQGXxFRp4YkLARlzoIYQrJluI+eUcNbkc8Wv5+ZaFqWFCXyqx4tct0lzRrgF3v75PAgqWFSYGltVIilBJbChfnusOfVc1O6QsD5lPMqAWaIVlpYMBAo0JkibNnJcVI0TEqUBGQUf4DyolmXq6Rkbx9sBvHFVGxr/Vqq/zOUNRfV6jo2iUnnBNAJPSFQEP7sQR8ClsYxQAjfeQz0E5r/9UdKNGsATtrlcyEzlIZWNP0r+WCJMGw1gzURZK3HfKFEnNMMalhc5cbCrZPhYMmHgK2529d7q1OAwv9RT12iwi6OFQY2vZ/8NfGqXHJPO29qwz4Ogd6TAPLItKzdgh6q45Z4mGpK0FuyFKXETXw11iHXzaZcM4U+vJCky3V17v10rlQXBjcXYZ3D/Q9epgpOJ5m/bzuEz5ZZNpW32I2T2l/y4DOuWzHEhugxo5LFilaGkuE0zuWZDZHPn5u60AwYhHS1ffX7aQCc5ztUHZedV9gOge73j8+H4HHRfS245oy26VjxC2oe4v4AZ+zbm1jkXt1d7/jtNKxfUSKfmntc/A6LNnmOFOje3yR3b5PRMOAmzwreMMozp7bQ/9Ee0882u2vx94i3p4Fqp5/mrr2/BtyCYRlGZl3S1UAu71++Ch8NCq1xZ3DnJTXeB2PzauYAHsH32DE7fA4MXDtffDtxuHUP1XByPdh+j9Fwd7b5X66fvfyuIueAaCwAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"OrganizationCustomer\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "RMAC",
+  "comment" : ""
+}
