@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="INNO.Integrations.AgenticWorkflows" UserTypeID="IntegrationSetupGroup" ParentID="INNOIntegrations">
+            <Name QualifierID="Qualifier root">INNO.Integrations.AgenticWorkflows</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,675 @@
+{
+  "version" : "2.1",
+  "id" : "2026-05-11 Promotion to PROD",
+  "name" : "2026-05-11 Promotion to PROD",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesExtended",
+  "uniqueId" : "cpk-8ed5f518-e222-4108-9832-3a813cf825ca",
+  "origin" : "uspresales-americas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "INNO.Integrations.AgenticWorkflows",
+    "itemURL" : "step://SetupGroup?id=INNO.Integrations.AgenticWorkflows",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attributs modèle de données PMDM",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.DataModelAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Interner Source Record",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.InternalSourceRecord",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing, Ändern",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ClericalReview-Organization",
+    "itemURL" : "step://stepworkflow?id=ClericalReview-Organization",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Enrichment, Approve",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Übersetzte Informationen",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatedInformation",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sustainability",
+    "itemURL" : "step://attributegroup?id=ATG_SUS_Sustainability",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Externer Source Record",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.ExternalSourceRecord",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Übersetzungsüberprüfung, Ändern",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslationReviewModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Übersetzer, Freigeben",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI Text Attributes",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_text",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!Attributes Master Configurations",
+    "itemURL" : "step://attributegroup?id=AttributesMasterConfigurations_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MatchingAgentRecommendation",
+    "itemURL" : "step://attribute?id=MatchingAgentRecommendation",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lieferant, Anzeigen",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.SupplierView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Prospect Project Attributes",
+    "itemURL" : "step://attributegroup?id=ProspectProjectAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Enabler.Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Privilèges Utilisateur PMDM",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.UserPrivileges",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Metadata",
+    "itemURL" : "step://attributegroup?id=Metadata",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Golden Record",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.GoldenRecord",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Integration Type",
+    "itemURL" : "step://objecttype?id=DnBIntegrationType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI Text Input Attribute Group",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_txt_inputgrp",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contrôles Golden Record",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.GoldenRecordGating",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI WebUI Products",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_webui_products",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integrations Group",
+    "itemURL" : "step://objecttype?id=IntegrationSetupGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Käufer, Freigeben",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Affichage",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.Display",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Artificial Intelligence Attributes",
+    "itemURL" : "step://attributegroup?id=attg_ai",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Remove From Workflow",
+    "itemURL" : "step://businessrule?id=RemoveFromWorkflow",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Include in Maintenance",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.PDS.IncludeInMaintenance",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.ProductDescriptionInformation",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Produit maître interne",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.InternalMasterProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lieferant, Ändern",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.SupplierModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Séquence d'affichage",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Importer Configuration Type",
+    "itemURL" : "step://objecttype?id=AssetImporterConfigurationType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI Attributes",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Description article courte",
+    "itemURL" : "step://attribute?id=PMDM.AT.ShortItemDescription",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Condition Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "INNO Integrations",
+    "itemURL" : "step://SetupGroup?id=INNOIntegrations",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Matching Metadata",
+    "itemURL" : "step://attributegroup?id=MatchingMetadata",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processor",
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "!Merchandising Attributes",
+    "itemURL" : "step://attributegroup?id=MCLMerchandisingAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integrations Root",
+    "itemURL" : "step://objecttype?id=IntegrationsSetupRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "But",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI WebUI Attributes",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_webui",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Workflows Type",
+    "itemURL" : "step://objecttype?id=DnBWorkflowsType",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "McLane Attributes",
+    "itemURL" : "step://attributegroup?id=McLaneAttributes_ATG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Enrichment, View",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Befördern zum Golden Record",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.PromoteToGoldenRecord",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Übersetzungsüberprüfung, Anzeigen",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslationReviewView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM.ATG.QAView",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.QAView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing Copy, View",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistique, Consulter",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.WarehouseView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX : Obligatoire pour soumission",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.PDS.MandatoryForSubmit",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Profile Attributes",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.ProfileAttributes",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Translator, Modify",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketing, Freigeben",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.MarketingCopyApprove",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Front Gate: Mandatory Attributes",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.FrontGateMandatoryAttributes",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "DisplaySequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization Customer",
+    "itemURL" : "step://objecttype?id=OrganizationCustomer",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ClericalReview-Supplier",
+    "itemURL" : "step://stepworkflow?id=ClericalReview-Supplier",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Buyer, Modify",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Enabler Root",
+    "itemURL" : "step://objecttype?id=Enabler.EnablerRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=GatewayEndpoint+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Integrations",
+    "itemURL" : "step://SetupGroup?id=Integrations.Root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI Text Input Attributes",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_txt_input",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Qualität, Ändern",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.QAModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Enrichment, Modify",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.EnrichmentModify",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Images, View",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.ImagesView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Übersetzer, Anzeigen",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.TranslatorView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Matching Keys for Maintenance",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.PDS.MaintenanceMatchingKeys",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Acheteur, Consulter",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.BuyerView",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Generative AI WebUI Products Input (Products)",
+    "itemURL" : "step://attributegroup?id=attg_gen_ai_webui_prdin",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier",
+    "itemURL" : "step://objecttype?id=Supplier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Source",
+    "itemURL" : "step://attribute?id=ConfigurationSource_AT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Maintenance",
+    "itemURL" : "step://attributegroup?id=PMDM.ATG.ProductMaintenance",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Import Configurations",
+    "itemURL" : "step://objecttype?id=AssetImportConfigurations",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-05-11 14:14:21\"    >\n\n  <Qualifiers>\n    <Qualifier ID=\"de-DE\">\n      <DimensionPointLink DimensionPointID=\"de-DE\"/>\n    </Qualifier>\n    <Qualifier ID=\"fr-FR\">\n      <DimensionPointLink DimensionPointID=\"fr-FR\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"PMDM.ATG.FrontGateMandatoryAttributes\" ShowInWorkbench=\"false\" ManuallySorted=\"false\" ParentID=\"PMDM.ATG.GoldenRecordGating\">\n    <Name QualifierID=\"de-DE\">Front Gate: Mandatory Attributes</Name>\n    <Name QualifierID=\"fr-FR\">Front Gate: Mandatory Attributes</Name>\n    <Name QualifierID=\"en-US\">Front Gate: Mandatory Attributes</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"PMDM.AT.ShortItemDescription\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"de-DE\">Artikelkurzbeschreibung</Name>\n      <Name QualifierID=\"en-US\">Short Item Description</Name>\n      <Name QualifierID=\"fr-FR\">Description article courte</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Language\"/>\n      <MetaData>\n        <Value AttributeID=\"PMDM.AT.CompletenessScore\">10</Value>\n      </MetaData>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.PDS.MandatoryForSubmit\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.ProfileAttributes\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.ImagesView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.SupplierView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.MarketingCopyModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"attg_gen_ai_webui_prdin\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.MarketingCopyApprove\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.PDS.MaintenanceMatchingKeys\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerApprove\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.PDS.IncludeInMaintenance\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.EnrichmentModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslatedInformation\"/>\n      <AttributeGroupLink AttributeGroupID=\"attg_gen_ai_txt_inputgrp\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslationReviewView\"/>\n      <AttributeGroupLink AttributeGroupID=\"attg_gen_ai_txt_input\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.WarehouseView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.SupplierModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.QAModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslatorApprove\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.FrontGateMandatoryAttributes\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.EnrichmentView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslatorModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"MCLMerchandisingAttributes_ATG\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.EnrichmentApprove\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.BuyerView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.MarketingCopyView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.ProductDescriptionInformation\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslatorView\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.PromoteToGoldenRecord\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.TranslationReviewModify\"/>\n      <AttributeGroupLink AttributeGroupID=\"PMDM.ATG.QAView\"/>\n      <UserTypeLink UserTypeID=\"PMDM.PRD.ExternalSourceRecord\"/>\n      <UserTypeLink UserTypeID=\"PMDM.PRD.InternalMasterProduct\"/>\n      <UserTypeLink UserTypeID=\"PMDM.PRD.GoldenRecord\"/>\n      <UserTypeLink UserTypeID=\"PMDM.PRD.InternalSourceRecord\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"INNO.Integrations.AgenticWorkflows\" UserTypeID=\"IntegrationSetupGroup\" ParentID=\"INNOIntegrations\">\n      <Name QualifierID=\"Qualifier root\">INNO.Integrations.AgenticWorkflows</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <STEPWorkflows>\n    <STEPWorkflow ID=\"ClericalReview-Supplier\">\n\n<!-- Definition:\n<scxml name=\"ClericalReview-Supplier\" initial=\"Initial\" version=\"0.9\">\n  <assignee id=\"$current\" type=\"user\"/>\n  <datamodel>\n    <data id=\"MatchingAgentRecommendation\" attribute=\"MatchingAgentRecommendation\"/>\n    <data id=\"MatchingAlgorithmID\"/>\n  </datamodel>\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>\n  <final id=\"End\" discontinued=\"false\">\n    <editorLayout>   node-size-and-position x=358.0 y=223.0 w=100.0 h=25.0  </editorLayout>\n    <onentry businessactionid=\"RemoveFromWorkflow\"/>\n  </final>\n  <state id=\"Initial\" name=\"Clerical Review\" discontinued=\"false\">\n    <transition target=\"End\"/>\n    <editorLayout>   node-size-and-position x=302.0 y=121.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n</scxml> -->\n      <BusinessRuleLink ID=\"RemoveFromWorkflow\"/>\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"std.lang.all\">ClericalReview-Supplier</Name>\n      <ValidUserTypeLink UserTypeID=\"Supplier\"/>\n      <Configuration>H4sIAAAAAAAA/4WSQY/TMBCF7/srjMU1TZpSKCiOhBaQKoEWdYU4e5NpOsIeR/akafn1OE53VyCVvWRkZd68z2+sB3ZbQkbNcEe3HmJVe20CVKE3yDWcoBkY7huPPX9Fiwztd49HNNBBUOyHx06DgYHuaGt75xn8j779d1hoTtaoKhWBydYoOfsbKUhbUPLWgMdGmx0cEcbsfuijFrwUR/ABHSlZLN5LEUdQUPLA3H/I83EcF+Nq4XyXl0Wxzot3eXKRdfUqy4QQ5FrIAv6GTFOb9S5ET0fipIpFIc7pO6q3bzaxHtR6M51FltU3ooq30DaqTTzMJ6GZPT7EWJT8prk5IHUfOyDeQeOsBYpNcbgU2P6/oa7yaV598zT5L4XpnEc+2O2n5865XnginQ4BOwJIytfN4H20kYLPfYQbQswtSh+bkiJwXItoMTSOGGmAKExLmnmvbEPM63g5z1VRpkSX5TJluiyKlGm5fopUVOw1XRSsfQes5GdqJ9TnP9NdE2ui3iNFiKvUs/oltPUmoZXl6jqaoxigP4uHISBBCLqZ1JPHDqw7whfv7E/nf+2Nm9LIL/0TbWJM2NPTqy+P/g9cytJCYwMAAA==</Configuration>\n    </STEPWorkflow>\n    <STEPWorkflow ID=\"ClericalReview-Organization\">\n\n<!-- Definition:\n<scxml name=\"ClericalReview-Organization\" initial=\"Review\" version=\"0.9\">\n  <assignee id=\"Stibo\" type=\"group\"/>\n  <datamodel>\n    <data id=\"MatchingAgentRecommendation\" attribute=\"MatchingAgentRecommendation\"/>\n    <data id=\"MatchingAlgorithmID\"/>\n  </datamodel>\n  <editorLayout>   node-size-and-position x=0.0 y=0.0 w=648.0 h=580.0  </editorLayout>\n  <final id=\"End\" discontinued=\"false\">\n    <assignee id=\"$current\" type=\"user\"/>\n    <editorLayout>   node-size-and-position x=210.0 y=220.0 w=100.0 h=25.0  </editorLayout>\n  </final>\n  <state id=\"Review\" name=\"Clerical Review\" discontinued=\"false\">\n    <transition target=\"End\"/>\n    <editorLayout>   node-size-and-position x=210.0 y=160.0 w=100.0 h=25.0  </editorLayout>\n  </state>\n</scxml>\n<workflowViews>\n  <restriction displaySequence=\"0\" includeSubgroups=\"false\">\n    <mapping displaySequence=\"0\" stateID=\"Review\" viewID=\"DebugView\"/>\n  </restriction>\n  <view id=\"DebugView\" automaticSort=\"false\" defaultSortColumn=\"0\">\n    <column name=\"\" mandatory=\"false\" readOnly=\"false\">\n      <plugin pluginID=\"WorkflowVariable\">\n        <parameter id=\"Variable\" value=\"MatchingAlgorithmID\"/>\n      </plugin>\n    </column>\n  </view>\n</workflowViews> -->\n      <SetupGroupLink SetupGroupID=\"Workflows\"/>\n      <Name QualifierID=\"std.lang.all\">ClericalReview-Organization</Name>\n      <ValidUserTypeLink UserTypeID=\"OrganizationCustomer\"/>\n      <Configuration>H4sIAAAAAAAA/41U23LTMBB971cIDa+OnUBL6cTpMC3MZAYmTEPLs2JvnB1kyegSN/16VrKdpmkpvFgX7+Xs2bMS3um5QofCwUJdGaA1XwtpYWobiW4G91B4B8vCYOO+Yo0Oyu8GtyihAps74wdLidaBWqh53WjjwNw25XEwW9zXMp/GhWFMK3N+A1uEljMlasj5lQSDhZDdbbIwlVD4IBxqxdkWjKVNzrPRR84oirI53zjXXKRp27aj9t1ImyqdZNlpmn1IYyI+m75JEsaY0iUkFh8gEapMGm0xBGX3eTbK2C5+2/zs/Tmtm/z0PJxZksxO2JQKETV5Szp0JyacM7giZnL+Tbhig6r6VIFyN1DougZV9oixfN1gNk1DvNnJPvITD1lpg25Tz68fLbu1x0PohLVYKYDouXS40py5XUPIKqN9ExwHk2i/RiUkK9EWWjlUHsgtdqlD+1mV/6ZsMu5Im0w62sZZFmmbnO5ZOwL2tvDGUP0DNm/BPIU2TSOyiNE60s7fMb4sGdZf/zf68dkr6J0RqvdwwlTgBmrSxz8BdIQaN0Fts17qAUg+vQxC34t2PMo4A1Xoklqb89sfX5JzzsifxCC1okp2YPklxVJ2ctFq82stdXtHkWyn9Qu6f6J3G7o9IkHxAJlAh7SRoWtY+eouklTCWnjpljSVV1r6OowPZ4ImvyYNFuF+ILeLEiMV0bRnmDN6GcqFkrt9G+qA2mmze+4b/RvpK1SsW+bXOf851CMMipU8duichKF89HjEGvaWbCukh5fHIj3Km3YZDypJu1J6htJAUb83YGmKi9hjVIX0JSz9Kk6N3RdKImyk2C3ht6feQSDvIHgtmoYQsaiCUOYgzfAN58NGPI+UDqgOoAQtPRMAXXbC+gO9bUM0sgUAAA==</Configuration>\n    </STEPWorkflow>\n  </STEPWorkflows>\n</STEP-ProductInformation>\n",
+  "signatory" : "RMAC",
+  "comment" : ""
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="de-DE">
+            <DimensionPointLink DimensionPointID="de-DE"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="fr-FR">
+            <DimensionPointLink DimensionPointID="fr-FR"></DimensionPointLink>
+        </Qualifier>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="PMDM.ATG.FrontGateMandatoryAttributes" ShowInWorkbench="false" ManuallySorted="false" ParentID="PMDM.ATG.GoldenRecordGating">
+            <Name QualifierID="de-DE">Front Gate: Mandatory Attributes</Name>
+            <Name QualifierID="en-US">Front Gate: Mandatory Attributes</Name>
+            <Name QualifierID="fr-FR">Front Gate: Mandatory Attributes</Name>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
