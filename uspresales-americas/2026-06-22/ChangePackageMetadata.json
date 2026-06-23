@@ -1,0 +1,87 @@
+{
+  "version" : "2.1",
+  "id" : "2026-06-22",
+  "name" : "2026-06-22",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesExtended",
+  "uniqueId" : "cpk-f792b864-dfe2-49cb-9c66-a2b5d238f91a",
+  "origin" : "uspresales-americas",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contact Person",
+    "itemURL" : "step://objecttype?id=ContactPerson",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Concatenate Org Name City Zip (UPPER)",
+    "itemURL" : "step://businessrule?id=OrgNameUpper",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization Customer",
+    "itemURL" : "step://objecttype?id=OrganizationCustomer",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Approve Action",
+    "itemURL" : "step://businessrule?id=ApproveAction",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://businessrule?id=acn-68a07bec-4426-4aa0-b70a-555b6d09faad",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supplier",
+    "itemURL" : "step://objecttype?id=Supplier",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-06-23 00:33:03\"    >\n\n  <BusinessRules>\n    <BusinessRule ID=\"OrgNameUpper\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (BulkUpdateSetName):\nFormula=Trim(concatenate(upper(value('LegalName')), ' - ',\nlist(iterate(datacontainers('MainAddressDataContainer'),'list(multivalue2list(upper(value(\"StandardizedCity\"))),\" , \")'),', '),\" - \",\nlist(iterate(datacontainers('MainAddressDataContainer'),'list(multivalue2list(upper(value(\\\"StandardizedZip\"))),\" , \")'),', ')\n))\nValue=\n -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Concatenate Org Name City Zip (UPPER)</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/7VSW2vCMBh991eEDEwL9bangW1lKsJgG+JlD2MgwcSSLU2zXGTu1+9r66Qisqc9BJJzOJfwfVr6TKgN1VoKbjdit9kWaiey2ALgUl3TNZbEo69coj03VhQqwYNuHyOutgUTKkvwejXr3OFR2orH3grFrV14ydMWQidgXtmhJl9DD9MEj738WGtGHV9y90xzjkstqOfUwMtBbA00IVQqZ4XJvaQYrQ6aJ/id7mlXUpV1l85ANZyujMgD+MQWzBWcwGvNTbCn0vOAPPKMyjKQhGGECOogErVvBv2hFNYFAlJKCRSjYOEoVDc2IE9wuWfMwD+mQE1+KRJGpBJCJSeqiNvq3cxsf/rCDZeOKkYNE9+cTYQ71GgILeobitARKk2h2onoHIn/7vl2WfRV6L97VrXCMO6dBnVldC9lzPXBXRg0gGob4t75bsH29c7X77jJP4cuJRTpAgAA</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"OrganizationCustomer\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n    <BusinessRule ID=\"ApproveAction\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"true\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nnode.approve();\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"Actions\"/>\n      <Name QualifierID=\"Qualifier root\">Approve Action</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/4VSTU/DMAy991dEOVRwoIUbUr+0FZBAmpjYEMcqtFnJlCUhcSv496RN17VCg5v97Dy/51jxpmaiIEpxRk3BdkUpxY7VsbEApMqVHZbE2deBo5Zqw6RI8E1wjREVpayYqBP8un24usVZ6sXLxjBBjXlpOE09hEZg3dOhad1Bj3cJfiIt2ZSaKTjWFyXYQW8MPpZMVAZ3XJZtTTQ5ULAyHDCFUMfkutH2W9EE7y1twImogw1oKxSnPodo5sT/bCRE1o4LTp5c3htzYebXEHkdQTdjRVSfI3REkN0UaFKCleFe5I3WVMDz+56W0LXkQ8cwa8EZMUOvkBUd4NFQzokZ6w3nLgpHHeFUSByO786s5l5rqVd2t6Smf6zof6LTb51n6fwE9rS0bOnFZfSLdAL0XxmH80OxpxTOb2k4yx8pNUU6tgIAAA==</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\">\n        <ValidObjectType ID=\"ContactPerson\"/>\n        <ValidObjectType ID=\"OrganizationCustomer\"/>\n        <ValidObjectType ID=\"Supplier\"/>\n      </ValidObjectTypes>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "RMAC",
+  "comment" : ""
+}
