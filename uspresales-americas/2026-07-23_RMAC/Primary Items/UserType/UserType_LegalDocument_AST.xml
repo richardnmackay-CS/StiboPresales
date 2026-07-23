@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="LegalDocument_AST" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="std.lang.all">Legal Document</Name>
+            <Icon>H4sIAAAAAAAA/3P3dLOwTBRgEGD4zgACAgIC/xkYnmtqPjc0fG9p+dzS6bmT03Mvr/dOXs+Dop5HRb0PCnofFfU8Ofl5dvbz4uLn1dXPW1qe9/Q8nzPn+dq1z7dufb517/O9e++dO3fv2rV7QPD8+f/fHxhGwSgY9EDxJwsjA4Msgw6IA8oTDBxNDNYcLA4bEg4yMLJosWxYuPBwGyOLionHxAdtHUKMHDdOTFQ+3CxlXZbywsDBtYtfmK+mY8Ghw93c8lILPgSlsk/iZXcoOMH47FSbiJFPxQSjZ2y8vFoRCgEPGpq4zTy9LAwUm1q5hGVUOnYlHmyc7m7oUtugwHyDV2aRkUV0kOKh7QUP2VgYrAE21j8ppQMAAA==</Icon>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <MIMEType>application/docx</MIMEType>
+            <MIMEType>application/msexcel</MIMEType>
+            <MIMEType>application/pdf</MIMEType>
+            <MIMEType>application/vnd.ms-excel</MIMEType>
+            <MIMEType>application/xlsx</MIMEType>
+            <MIMEType>image/JPEG</MIMEType>
+            <MIMEType>image/PNG</MIMEType>
+            <MIMEType>image/png</MIMEType>
+            <MIMEType>imagej/jpeg</MIMEType>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

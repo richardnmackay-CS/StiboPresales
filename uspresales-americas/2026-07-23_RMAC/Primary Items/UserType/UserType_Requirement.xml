@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="Requirement" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="en-US">Requirement</Name>
+            <Icon>H4sIAAAAAAAA/31T32vTQBzPVIaMbYhv7kGODHHiml9d1yU0bl3S2soyRldYX4SmybWNW3Ixudl0iIrgYKAyQRHcP+CLA0FBENE5QX0Q8WEgvviyB4eo4JMPwrx0axWhO0juvl8+n+997nufW5qaPN3T1ddFUVRPNqPmwjn8DnaSv/d18yKZjuBUAU+jMq7pHqSSJipBkLX1CsxB3ayffwsTFLV/wMoXcEGbkAxkM3qIYQLbpcKRGA1c3ZiFGJRgxXJk+sfT5zSwTJmeiWmc5iqwamUWPDi9MJk3FmYN0aRHT4FEIJECNsQ6COw5x5cCmW7Ulcg6TLM0aEDwrEzviCpoU0BBHgQxZjhi8NEREBcZPiaOCEODQOD4YZYTWX4owvESJ0ocD3YHTXbzzLKUU9O7e5FIpqsYuxLL1mo1phZlkFdheVEUWU5gBSFCEBG/7mA9iDh+f7OCCn3Ds1xsIQeEsV5C81im6eYRbLdV1vF320Qaxga6y/IMx/4D1LS9obbdQvs4B8t7o/183YVsDvpo3jPIxZX7Q7IrKR7UMfLyCM01uzhVRRj5VeQCRQm7FgcDmm5YTpg80WBpmpR1fKw7BsyqMk0yjGWZUnokpaiKIMRVJc7zqXgyFYsp8ZSiKDw/Ho0mm1wVGfM2dHCTa/7lRttyQ0PssKFnXYBm2kM2aBxcstpr4dpr2eGa7bXwbbksEcP+d93NFPFQuGyZlwQt+0OHeN4j5r537v1d8jCKWTWZDz6VEpc2f17upK9ce9zbf/3dl++Hf39ej9xee3lmpXpjApRer250H7959tj9rVcfThZnHr44MNa31DG2vh3llzvSsbWhbx+fLd4aXMlsvPm1PUpv1Z8sHrrT27Gvm9LyR5czjyoPwleYTU2qq+PFq38AXDYnYvIDAAA=</Icon>
+            <UserTypeLink UserTypeID="RequirementsLevel1"></UserTypeLink>
+            <UserTypeLink UserTypeID="RequirementsLevel2"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
