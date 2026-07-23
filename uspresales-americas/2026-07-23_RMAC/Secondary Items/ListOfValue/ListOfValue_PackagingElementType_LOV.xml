@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PackagingElementType_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Packaging Element Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="Aerosol">
+                <Value>Aerosol</Value>
+            </ValueGroup>
+            <ValueGroup ID="Ampoule">
+                <Value>Ampoule</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bag">
+                <Value>Bag</Value>
+            </ValueGroup>
+            <ValueGroup ID="BagInBox">
+                <Value>Bag in Box</Value>
+            </ValueGroup>
+            <ValueGroup ID="BandedPackage">
+                <Value>Banded package</Value>
+            </ValueGroup>
+            <ValueGroup ID="Barrel">
+                <Value>Barrel</Value>
+            </ValueGroup>
+            <ValueGroup ID="Basket">
+                <Value>Basket</Value>
+            </ValueGroup>
+            <ValueGroup ID="BlisterPack">
+                <Value>Blister pack</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bottle">
+                <Value>Bottle</Value>
+            </ValueGroup>
+            <ValueGroup ID="Box">
+                <Value>Box</Value>
+            </ValueGroup>
+            <ValueGroup ID="Brick">
+                <Value>Brick</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bucket">
+                <Value>Bucket</Value>
+            </ValueGroup>
+            <ValueGroup ID="Cage">
+                <Value>Cage</Value>
+            </ValueGroup>
+            <ValueGroup ID="Can">
+                <Value>Can</Value>
+            </ValueGroup>
+            <ValueGroup ID="Card">
+                <Value>Card</Value>
+            </ValueGroup>
+            <ValueGroup ID="Carton">
+                <Value>Carton</Value>
+            </ValueGroup>
+            <ValueGroup ID="Cartridge">
+                <Value>Cartridge</Value>
+            </ValueGroup>
+            <ValueGroup ID="Case">
+                <Value>Case</Value>
+            </ValueGroup>
+            <ValueGroup ID="ClamShell">
+                <Value>Clam Shell</Value>
+            </ValueGroup>
+            <ValueGroup ID="Crate">
+                <Value>Crate</Value>
+            </ValueGroup>
+            <ValueGroup ID="CupOrTub">
+                <Value>Cup\Tub</Value>
+            </ValueGroup>
+            <ValueGroup ID="Cylinder">
+                <Value>Cylinder</Value>
+            </ValueGroup>
+            <ValueGroup ID="Envelope">
+                <Value>Envelope</Value>
+            </ValueGroup>
+            <ValueGroup ID="GableTop">
+                <Value>Gable Top</Value>
+            </ValueGroup>
+            <ValueGroup ID="InnerTray">
+                <Value>Inner tray</Value>
+            </ValueGroup>
+            <ValueGroup ID="Jar">
+                <Value>Jar</Value>
+            </ValueGroup>
+            <ValueGroup ID="Jug">
+                <Value>Jug</Value>
+            </ValueGroup>
+            <ValueGroup ID="Multipack">
+                <Value>Multipack</Value>
+            </ValueGroup>
+            <ValueGroup ID="Net">
+                <Value>Net</Value>
+            </ValueGroup>
+            <ValueGroup ID="NotPacked">
+                <Value>Not packed</Value>
+            </ValueGroup>
+            <ValueGroup ID="PeelPack">
+                <Value>Peel Pack</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pot">
+                <Value>Pot</Value>
+            </ValueGroup>
+            <ValueGroup ID="Pouch">
+                <Value>Pouch</Value>
+            </ValueGroup>
+            <ValueGroup ID="Shrinkwrapped">
+                <Value>Shrinkwrapped</Value>
+            </ValueGroup>
+            <ValueGroup ID="Sleeve">
+                <Value>Sleeve</Value>
+            </ValueGroup>
+            <ValueGroup ID="Stretchwrapped">
+                <Value>Stretchwrapped</Value>
+            </ValueGroup>
+            <ValueGroup ID="Tray">
+                <Value>Tray</Value>
+            </ValueGroup>
+            <ValueGroup ID="Tube">
+                <Value>Tube</Value>
+            </ValueGroup>
+            <ValueGroup ID="Wrapper">
+                <Value>Wrapper</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

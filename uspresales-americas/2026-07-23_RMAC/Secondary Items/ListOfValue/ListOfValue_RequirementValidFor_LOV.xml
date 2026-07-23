@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="RequirementValidFor_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Requirement Valid For LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup ID="PLMDesignSpecificationLabelVariant">
+                <Value QualifierID="en-US">Design Specification Label Variant</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMDesignSpecificationPackagingVariant">
+                <Value QualifierID="en-US">Design Specification Packaging Variant</Value>
+            </ValueGroup>
+            <ValueGroup ID="PLMDesignSpecificationVariant">
+                <Value QualifierID="en-US">Design Specification Variant</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

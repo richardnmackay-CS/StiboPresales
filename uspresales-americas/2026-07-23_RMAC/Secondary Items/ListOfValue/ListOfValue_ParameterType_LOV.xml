@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="ParameterType_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Parameter Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup ID="Microbiological">
+                <Value QualifierID="en-US">Microbiological</Value>
+            </ValueGroup>
+            <ValueGroup ID="Physiochemical">
+                <Value QualifierID="en-US">Physiochemical</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

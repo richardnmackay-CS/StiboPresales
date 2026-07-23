@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="CrossContaminationRisk_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Cross Contamination Risk</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup>
+                <Value QualifierID="en-US">Crustacean shellfish</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Eggs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Fish</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Hydrolyzed Plant Protein</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Latex</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Lecithin</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Lupine</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Milk &amp; Other Dairy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Mustard Seed or Products</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Other Allergens &amp; Intolerances - Fruit &amp; Veg</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Other Allergens &amp; Intolerances - Meat &amp; Poultry</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Other Allergens &amp; Intolerances - Other</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Peanut</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Sesame</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Shellfish (Mollusca)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Soy</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Sulfites</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Tree Nuts &amp; Nuts</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value QualifierID="en-US">Wheat &amp; Gluten Sources</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

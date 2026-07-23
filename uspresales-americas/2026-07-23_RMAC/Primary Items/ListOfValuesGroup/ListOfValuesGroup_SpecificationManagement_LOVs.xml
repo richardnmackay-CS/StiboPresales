@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <ListOfValuesGroupList>
+        <ListOfValuesGroup ID="SpecificationManagement_LOVs" ParentID="MasterConfigurations_LOVs">
+            <Name QualifierID="Qualifier root">Specification Management LOVs</Name>
+        </ListOfValuesGroup>
+    </ListOfValuesGroupList>
+</STEP-ProductInformation>

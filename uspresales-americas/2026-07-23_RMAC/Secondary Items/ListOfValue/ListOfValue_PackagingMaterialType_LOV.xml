@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="PackagingMaterialType_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Packaging Material Type</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="Aluminum">
+                <Value>Aluminum</Value>
+            </ValueGroup>
+            <ValueGroup ID="Bioplastic">
+                <Value>Bio-plastic</Value>
+            </ValueGroup>
+            <ValueGroup ID="Brass">
+                <Value>Brass</Value>
+            </ValueGroup>
+            <ValueGroup ID="Burlap">
+                <Value>Burlap</Value>
+            </ValueGroup>
+            <ValueGroup ID="CalciumCarbonate">
+                <Value>Calcium Carbonate</Value>
+            </ValueGroup>
+            <ValueGroup ID="CelluloseAcetate">
+                <Value>Cellulose Acetate</Value>
+            </ValueGroup>
+            <ValueGroup ID="Ceramic">
+                <Value>Ceramic</Value>
+            </ValueGroup>
+            <ValueGroup ID="ClothOrFabric">
+                <Value>Cloth or Fabric</Value>
+            </ValueGroup>
+            <ValueGroup ID="ColouredGlass">
+                <Value>Coloured Glass</Value>
+            </ValueGroup>
+            <ValueGroup ID="Composite">
+                <Value>Composite</Value>
+            </ValueGroup>
+            <ValueGroup ID="Corrugated">
+                <Value>Corrugated</Value>
+            </ValueGroup>
+            <ValueGroup ID="CorrugatedBoardOther">
+                <Value>Corrugated Board Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="DoubleWallCorrugatedBoard">
+                <Value>Double Wall Corrugated Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="Epoxy">
+                <Value>Epoxy</Value>
+            </ValueGroup>
+            <ValueGroup ID="EthyleneVinylAcetateEVA">
+                <Value>Ethylene vinyl acetate, (EVA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="EthyleneVinylAlcoholEVOH">
+                <Value>Ethylene vinyl alcohol, (EVOH)</Value>
+            </ValueGroup>
+            <ValueGroup ID="FibreCotton">
+                <Value>Fibre Cotton</Value>
+            </ValueGroup>
+            <ValueGroup ID="FibreFlax">
+                <Value>Fibre Flax</Value>
+            </ValueGroup>
+            <ValueGroup ID="FibreHemp">
+                <Value>Fibre Hemp</Value>
+            </ValueGroup>
+            <ValueGroup ID="FibreJute">
+                <Value>Fibre Jute</Value>
+            </ValueGroup>
+            <ValueGroup ID="FibreOther">
+                <Value>Fibre Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="Foam">
+                <Value>Foam</Value>
+            </ValueGroup>
+            <ValueGroup ID="Glass">
+                <Value>Glass</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hardboard">
+                <Value>Hardboard</Value>
+            </ValueGroup>
+            <ValueGroup ID="Hardwood">
+                <Value>Hardwood</Value>
+            </ValueGroup>
+            <ValueGroup ID="HighDensityPolyethyleneHDPE">
+                <Value>High Density Polyethylene (HDPE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="Iron">
+                <Value>Iron</Value>
+            </ValueGroup>
+            <ValueGroup ID="LaminatedCarton">
+                <Value>Laminated Carton</Value>
+            </ValueGroup>
+            <ValueGroup ID="LinearLowDensityPolyethylene">
+                <Value>Linear Low Density Polyethylene</Value>
+            </ValueGroup>
+            <ValueGroup ID="LowdensityPolyethyleneLDPE">
+                <Value>Low-density polyethylene (LDPE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="MediumDensityFiberBoard">
+                <Value>Medium density Fiber Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="MediumdensityPolyethylene">
+                <Value>Medium-density Polyethylene</Value>
+            </ValueGroup>
+            <ValueGroup ID="Metal">
+                <Value>Metal</Value>
+            </ValueGroup>
+            <ValueGroup ID="MineralOther">
+                <Value>Mineral Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="MoldedPulp">
+                <Value>Molded Pulp</Value>
+            </ValueGroup>
+            <ValueGroup ID="NaturalRubber">
+                <Value>Natural rubber</Value>
+            </ValueGroup>
+            <ValueGroup ID="Nylon">
+                <Value>Nylon</Value>
+            </ValueGroup>
+            <ValueGroup ID="OrientedStrandBoard">
+                <Value>Oriented Strand Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="Paper">
+                <Value>Paper</Value>
+            </ValueGroup>
+            <ValueGroup ID="PaperOther">
+                <Value>Paper Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="Paperboard">
+                <Value>Paperboard</Value>
+            </ValueGroup>
+            <ValueGroup ID="ParticleBoard">
+                <Value>Particle Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="PlasticOther">
+                <Value>Plastic Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyacrylonitrilPAN">
+                <Value>Polyacrylonitril (PAN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolycaprolactonePCL">
+                <Value>Polycaprolactone (PCL)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolycarbonatePC">
+                <Value>Polycarbonate (PC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyethyleneNaphthalatePEN">
+                <Value>Polyethylene Naphthalate (PEN)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyethylenePE">
+                <Value>Polyethylene (PE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyethyleneTerephthalatePET">
+                <Value>Polyethylene Terephthalate (PET)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyhydroxyalkanoatesPHA">
+                <Value>Polyhydroxyalkanoates (PHA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolylacticAcidOrPolylactidePLA">
+                <Value>Polylactic Acid or Polylactide (PLA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolymersOther">
+                <Value>Polymers Other</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolypropyleneBOPP">
+                <Value>Polypropylene (BOPP)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolypropyleneLDPE">
+                <Value>Polypropylene (LDPE)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolypropylenePP">
+                <Value>Polypropylene (PP)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolystyrenePS">
+                <Value>Polystyrene (PS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyurethanesPU">
+                <Value>Polyurethanes (PU)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyvinylAlcoholPVA">
+                <Value>Polyvinyl Alcohol (PVA)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyvinylChloridePVC">
+                <Value>Polyvinyl Chloride (PVC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="PolyvinylideneChloridePVDC">
+                <Value>Polyvinylidene Chloride (PVDC)</Value>
+            </ValueGroup>
+            <ValueGroup ID="RayonPaper">
+                <Value>Rayon Paper</Value>
+            </ValueGroup>
+            <ValueGroup ID="Rubber">
+                <Value>Rubber</Value>
+            </ValueGroup>
+            <ValueGroup ID="SingleWallCorrugatedBoard">
+                <Value>Single Wall Corrugated Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="Softwood">
+                <Value>Softwood</Value>
+            </ValueGroup>
+            <ValueGroup ID="StainlessSteel">
+                <Value>Stainless Steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="Steel">
+                <Value>Steel</Value>
+            </ValueGroup>
+            <ValueGroup ID="Talc">
+                <Value>Talc</Value>
+            </ValueGroup>
+            <ValueGroup ID="ThermoplasticStarchTPS">
+                <Value>Thermoplastic Starch (TPS)</Value>
+            </ValueGroup>
+            <ValueGroup ID="Thermoplastics">
+                <Value>Thermoplastics</Value>
+            </ValueGroup>
+            <ValueGroup ID="Tin">
+                <Value>Tin</Value>
+            </ValueGroup>
+            <ValueGroup ID="TripleWallCorrugatedBoard">
+                <Value>Triple Wall Corrugated Board</Value>
+            </ValueGroup>
+            <ValueGroup ID="Vinyl">
+                <Value>Vinyl</Value>
+            </ValueGroup>
+            <ValueGroup ID="Wire">
+                <Value>Wire</Value>
+            </ValueGroup>
+            <ValueGroup ID="Wood">
+                <Value>Wood</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

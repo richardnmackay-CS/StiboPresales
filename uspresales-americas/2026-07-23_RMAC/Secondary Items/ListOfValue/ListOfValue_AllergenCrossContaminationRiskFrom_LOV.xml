@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="AllergenCrossContaminationRiskFrom_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Allergen Cross Contamination Risk From</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup ID="InTheProduct">
+                <Value QualifierID="en-US">In The Product</Value>
+            </ValueGroup>
+            <ValueGroup ID="IngredientSupplier">
+                <Value QualifierID="en-US">Ingredient Supplier</Value>
+            </ValueGroup>
+            <ValueGroup ID="NotPresentInTheProduct">
+                <Value QualifierID="en-US">Not Present in the product</Value>
+            </ValueGroup>
+            <ValueGroup ID="OntheFactory">
+                <Value QualifierID="en-US">On the Factory</Value>
+            </ValueGroup>
+            <ValueGroup ID="ProductionLine">
+                <Value QualifierID="en-US">Production Line</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

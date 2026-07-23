@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="SelectedSuppliers_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Selected Suppliers LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup ID="4430929-PCLS">
+                <Value>Chambers</Value>
+            </ValueGroup>
+            <ValueGroup ID="53994141-PCLS">
+                <Value>Faire</Value>
+            </ValueGroup>
+            <ValueGroup ID="5413406-PCLS">
+                <Value>Greene Acres Farm</Value>
+            </ValueGroup>
+            <ValueGroup ID="583930-PCLS">
+                <Value>Romisa Supplier</Value>
+            </ValueGroup>
+            <ValueGroup ID="586388-PCLS">
+                <Value>US Food</Value>
+            </ValueGroup>
+            <ValueGroup ID="9650816-PCLS">
+                <Value>Cibus Foods Inc.</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

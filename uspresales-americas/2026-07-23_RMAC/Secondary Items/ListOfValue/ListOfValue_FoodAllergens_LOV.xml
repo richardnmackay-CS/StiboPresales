@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="FoodAllergens_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Food Allergens LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Celery</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Cereals containing gluten</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Crustacean shelfish(e.g., crab, lobster, shrimp)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Eggs</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Fish( e.g., bass, flounder, cod)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Lupin and products thereof</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Molluscs and products thereof</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Mustard</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Peanuts</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Sesame seeds</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Soybeans</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Sulphur dioxide and sulphites</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Tree nuts (e.g., almonds, walnuts, pecans)</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Wheat</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

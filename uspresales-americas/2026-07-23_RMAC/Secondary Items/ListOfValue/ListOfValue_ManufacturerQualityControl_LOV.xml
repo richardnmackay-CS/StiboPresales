@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="ManufacturerQualityControl_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="false">
+            <Name QualifierID="en-US">Manufacturer Quality Control LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueGroup>
+                <Value>Employee hyhiene and plant sanitation</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Manufacturing critical control points</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Consistency</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Product Quality</Value>
+            </ValueGroup>
+            <ValueGroup>
+                <Value>Specification compliance</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>

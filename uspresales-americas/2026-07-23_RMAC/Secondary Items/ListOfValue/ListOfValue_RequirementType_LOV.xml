@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <ListsOfValues>
+        <ListOfValue ID="RequirementType_LOV" ParentID="SpecificationManagement_LOVs" AllowUserValueAddition="false" UseValueID="true">
+            <Name QualifierID="en-US">Requirement Type LOV</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <ValueGroup ID="CommercialRequirement">
+                <Value QualifierID="en-US">Commercial Requirement</Value>
+            </ValueGroup>
+            <ValueGroup ID="FoodClaim">
+                <Value QualifierID="en-US">Food Claim</Value>
+            </ValueGroup>
+            <ValueGroup ID="HealthClaim">
+                <Value QualifierID="en-US">Health Claim</Value>
+            </ValueGroup>
+            <ValueGroup ID="PhysicalCharacteristics">
+                <Value QualifierID="en-US">Physical Characteristics</Value>
+            </ValueGroup>
+            <ValueGroup ID="QualityRequirement">
+                <Value QualifierID="en-US">Quality Requirement</Value>
+            </ValueGroup>
+        </ListOfValue>
+    </ListsOfValues>
+</STEP-ProductInformation>
