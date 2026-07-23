@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="RecipeRequirements" UserTypeID="RequirementsLevel1">
+                        <Product ID="FoodQuality" UserTypeID="RequirementsLevel2">
+                            <Product ID="CaloriesFromFat" UserTypeID="Requirement">
+                                <Name>Calories from Fat</Name>
+                                <Values>
+                                    <Value AttributeID="HelpText_AT" QualifierID="en-US">Fat has more than twice as many calories per gram as carbohydrates and proteins. A gram of fat has about 9 calories, while a gram of carbohydrate or protein has about 4 calories. In other words, you could eat twice as much carbohydrates or proteins as fat for the same amount of calories.</Value>
+                                    <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">Must contain no more than 30% of calories from fat</Value>
+                                    <Value AttributeID="SortOrder_AT">250</Value>
+                                    <Value AttributeID="DefiningAttribute_AT" ID="NumberAndUnit" LOVQualifierID="en-US">Number and Unit</Value>
+                                    <Value AttributeID="RequirementType_AT" ID="QualityRequirement" LOVQualifierID="en-US">Quality Requirement</Value>
+                                    <MultiValue AttributeID="MandatorySupplierResponsesReq_AT">
+                                        <Value QualifierID="Qualifier root">Meets Requirement?</Value>
+                                    </MultiValue>
+                                    <MultiValue AttributeID="RequirementValidFor_AT">
+                                        <Value QualifierID="Qualifier root">Design Specification Variant</Value>
+                                    </MultiValue>
+                                </Values>
+                            </Product>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="ProductSpecification" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Relaxed" IDPattern="PROS-[id]">
+            <Name QualifierID="en-US">Product Specification</Name>
+            <UserTypeLink UserTypeID="MasterSpecification"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

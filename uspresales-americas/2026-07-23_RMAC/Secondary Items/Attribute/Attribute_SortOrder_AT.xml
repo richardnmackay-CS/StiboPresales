@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="SortOrder_AT" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Sort Order</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <Value AttributeID="DisplaySequence">100</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Used by  developed components to store the sort order for ingredients, requirements and parameters.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ParametersInformation_ATG"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="RequirementsInformation_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="LabelRequirement"></UserTypeLink>
+            <UserTypeLink UserTypeID="PackagingRequirement"></UserTypeLink>
+            <UserTypeLink UserTypeID="Parameter"></UserTypeLink>
+            <UserTypeLink UserTypeID="Requirement"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

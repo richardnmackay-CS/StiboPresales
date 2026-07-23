@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ParameterValidFor_AT" MultiValued="true" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Parameter Valid For</Name>
+            <ListOfValueLink ListOfValueID="ParameterValidFor_LOV"></ListOfValueLink>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">Used by a business rule to determine whether the parameter is valid for the recipe or an individual ingredient.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ParametersInformation_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Parameter"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

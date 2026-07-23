@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <AssetCrossReferenceType ID="CertificateOfLiabilityInsureance_IDRT" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">Certificate of Liability Insureance - COI</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">A Certificate of Liability Insurance (COI) is a document that provides proof that a business or individual has liability insurance coverage. It summarizes key details of the policy, including:
+- Policyholder Information: Name and contact details of the insured.
+- Insurance Provider: The company issuing the policy.
+- Coverage Types: General liability, professional liability, workers' compensation, etc.
+- Policy Limits: Maximum amount the insurer will pay for claims.
+- Effective &amp; Expiration Dates: The duration of coverage.
+Businesses often need a COI when working with clients, vendors, or landlords who require proof of insurance before entering into contracts. If you need one, you can request it from your insurance provider</Value>
+            </MetaData>
+            <UserTypeLink UserTypeID="MasterSpecification"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="LegalDocument_AST"></TargetUserTypeLink>
+        </AssetCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

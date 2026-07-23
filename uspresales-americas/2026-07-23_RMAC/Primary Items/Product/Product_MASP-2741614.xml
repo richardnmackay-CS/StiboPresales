@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="FoodProductSpecifications" UserTypeID="ProductSpecificationType">
+                    <Product ID="MASP-2741614" UserTypeID="MasterSpecification">
+                        <Name>Deluxe Sandwich w/American</Name>
+                        <AssetCrossReference AssetID="CertificateOfLiabilityInsurance" Type="CertificateOfLiabilityInsureance_IDRT"></AssetCrossReference>
+                        <ProductCrossReference ProductID="CertifiedColors" Type="Requirements_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="GMO_Free" Type="Requirements_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="MicrobiologicalParamerter07" Type="Parameters_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="MicrobiologicalParameters04" Type="Parameters_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="MicrobiologicalParameters05" Type="Parameters_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="PACS-2741616" Type="SpecificationTPackagingSpecification_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="Requirement01" Type="Requirements_PRT"></ProductCrossReference>
+                        <ProductCrossReference ProductID="Salmonella" Type="Parameters_PRT"></ProductCrossReference>
+                        <Values>
+                            <Value AttributeID="CertificateofLiabilityInsurance_AT" QualifierID="en-US" LOVQualifierID="en-US">Yes</Value>
+                            <Value AttributeID="ConfidentialityAgreement_AT" QualifierID="en-US" LOVQualifierID="en-US">No</Value>
+                            <Value AttributeID="ContinuingCommodityGuarantee_AT" QualifierID="en-US" LOVQualifierID="en-US">No</Value>
+                            <Value AttributeID="GoodManufacturingPractices_AT" QualifierID="en-US" LOVQualifierID="en-US">Yes</Value>
+                            <Value AttributeID="IndemnityAgreement_AT" QualifierID="en-US" LOVQualifierID="en-US">No</Value>
+                            <Value AttributeID="ManufacturerIngredientStatement_AT" QualifierID="en-US" LOVQualifierID="en-US">Yes</Value>
+                            <Value AttributeID="SpecificationEffectiveDate_AT">2025-04-04</Value>
+                            <Value AttributeID="SpecificationNumber_AT">MASP-2741614</Value>
+                            <Value AttributeID="SpecificationProductName_AT">Deluxe Sandwich w/American</Value>
+                            <MultiValue AttributeID="ManufacturerQualityControl_AT">
+                                <Value QualifierID="Qualifier root">Employee hyhiene and plant sanitation</Value>
+                                <Value QualifierID="Qualifier root">Manufacturing critical control points</Value>
+                                <Value QualifierID="Qualifier root">Product Consistency</Value>
+                                <Value QualifierID="Qualifier root">Product Quality</Value>
+                                <Value QualifierID="Qualifier root">Specification compliance</Value>
+                            </MultiValue>
+                        </Values>
+                        <DataContainers>
+                            <DataContainer ID="NLI-2780808" Type="NutritionLabel_DC"></DataContainer>
+                            <MultiDataContainer Type="MasterSpecificationAllergens_DC">
+                                <DataContainer ID="MSAL-2782873">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Crustacean shellfish</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="InTheProduct" LOVQualifierID="en-US">In The Product</Value>
+                                        <Value AttributeID="AllergenLevelOfContainment_AT" ID="MayContain">May contain</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2782874">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Eggs</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2782875">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Fish</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2782876">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Hydrolyzed Plant Protein</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2782877">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Latex</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786255">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Lecithin</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786256">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Lupine</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786257">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Milk &amp; Other Dairy</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786258">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Mustard Seed or Products</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786259">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Other Allergens &amp; Intolerances - Fruit &amp; Veg</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786260">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Other Allergens &amp; Intolerances - Meat &amp; Poultry</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786261">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Other Allergens &amp; Intolerances - Other</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786262">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Peanut</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786263">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Sesame</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786264">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Shellfish (Mollusca)</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786265">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Soy</Value>
+                                        <Value AttributeID="IsMajorAllergen_AT" LOVQualifierID="en-US">Yes</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786266">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Sulfites</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786267">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Tree Nuts &amp; Nuts</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                                <DataContainer ID="MSAL-2786268">
+                                    <Values>
+                                        <Value AttributeID="CrossContaminationRisk_AT" LOVQualifierID="en-US">Wheat &amp; Gluten Sources</Value>
+                                        <Value AttributeID="AllergenCrossContaminationRiskFrom_AT" ID="NotPresentInTheProduct" LOVQualifierID="en-US">Not Present in the product</Value>
+                                    </Values>
+                                </DataContainer>
+                            </MultiDataContainer>
+                        </DataContainers>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

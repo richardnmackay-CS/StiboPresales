@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="FoodProductSpecifications" UserTypeID="ProductSpecificationType">
+                    <Name>Food Product Specifications</Name>
+                    <AttributeLink AttributeID="CertificateofLiabilityInsurance_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ConfidentialityAgreement_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ContinuingCommodityGuarantee_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ContinuingPureFoodGuarantee_AT"></AttributeLink>
+                    <AttributeLink AttributeID="GoodManufacturingPractices_AT"></AttributeLink>
+                    <AttributeLink AttributeID="IndemnityAgreement_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ManufacturerIngredientStatement_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ManufacturerQualityControl_AT"></AttributeLink>
+                    <AttributeLink AttributeID="ProductFormulation_AT"></AttributeLink>
+                    <AttributeLink AttributeID="PublicHealthSecurity_AT"></AttributeLink>
+                    <AttributeLink AttributeID="SpecificationAllergens_AT"></AttributeLink>
+                    <AttributeLink AttributeID="SupplierRecallProgram_AT"></AttributeLink>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

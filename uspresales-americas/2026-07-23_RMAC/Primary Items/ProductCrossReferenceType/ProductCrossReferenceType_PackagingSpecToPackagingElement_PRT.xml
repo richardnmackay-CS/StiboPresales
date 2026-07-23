@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="PackagingSpecToPackagingElement_PRT" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">Packaging Specification to Packaging Element</Name>
+            <AttributeGroupLink AttributeGroupID="PackagingSpecification_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="PackagingSpecification"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="PackagingElement"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>

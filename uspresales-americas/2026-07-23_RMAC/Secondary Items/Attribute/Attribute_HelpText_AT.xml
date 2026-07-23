@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="HelpText_AT" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Help Text</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="500" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <Value AttributeID="DisplaySequence">30</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Help text for suppliers who are responding to new product requirements and/or parameters.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ParametersInformation_ATG"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="RequirementsInformation_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="LabelRequirement"></UserTypeLink>
+            <UserTypeLink UserTypeID="PackagingRequirement"></UserTypeLink>
+            <UserTypeLink UserTypeID="Parameter"></UserTypeLink>
+            <UserTypeLink UserTypeID="Requirement"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

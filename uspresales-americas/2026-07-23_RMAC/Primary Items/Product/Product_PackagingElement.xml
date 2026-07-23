@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationMaterialsRoot" UserTypeID="MaterialsRoot">
+                <Product ID="PackagingElementsRoot" UserTypeID="PackagingElementsRoot">
+                    <Product ID="PackagingElement" UserTypeID="PackagingElement">
+                        <Name>Packaging Element-000</Name>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

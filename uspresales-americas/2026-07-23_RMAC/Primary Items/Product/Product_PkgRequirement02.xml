@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="ConsumerPackagingRequiremements" UserTypeID="RequirementsLevel1">
+                        <Product ID="PackagingSustainability" UserTypeID="RequirementsLevel2">
+                            <Product ID="PkgRequirement02" UserTypeID="PackagingRequirement">
+                                <Name>Bio-degradable materials</Name>
+                                <Values>
+                                    <Value AttributeID="PackagingDefiningAttribute_AT">Text</Value>
+                                    <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">All materials must be made of biodegradable content in lines with American Society for Testing and Materials (ASTM) guidelines. If Yes, please which the method used to validate.</Value>
+                                    <Value AttributeID="SortOrder_AT">30</Value>
+                                    <MultiValue AttributeID="RequirementValidFor_AT">
+                                        <Value QualifierID="Qualifier root">Design Specification Packaging Variant</Value>
+                                    </MultiValue>
+                                </Values>
+                            </Product>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

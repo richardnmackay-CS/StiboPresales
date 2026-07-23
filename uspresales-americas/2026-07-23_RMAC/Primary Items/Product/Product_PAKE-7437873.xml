@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationMaterialsRoot" UserTypeID="MaterialsRoot">
+                <Product ID="PackagingElementsRoot" UserTypeID="PackagingElementsRoot">
+                    <Product ID="PAKE-7437873" UserTypeID="PackagingElement">
+                        <Name>Polyethylene Bag</Name>
+                        <Values>
+                            <Value AttributeID="DisplayStatus_AT">🟢 Approved</Value>
+                            <Value AttributeID="IngredientDescription_AT">Polyethylene bags are versatile packaging solutions made from polyethylene film, known for their flexibility, durability, and resistance to moisture.</Value>
+                        </Values>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

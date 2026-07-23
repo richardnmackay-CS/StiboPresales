@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="VPresidentGlobalRandDSignature_AT" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Vice President - Global R&amp;D</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="150" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="SpecificationApprovers_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="MasterSpecification"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

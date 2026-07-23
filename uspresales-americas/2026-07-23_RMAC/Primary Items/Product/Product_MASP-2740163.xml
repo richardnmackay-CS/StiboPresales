@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="FoodProductSpecifications" UserTypeID="ProductSpecificationType">
+                    <Product ID="MASP-2740163" UserTypeID="MasterSpecification">
+                        <Name>Brocoli Soup</Name>
+                        <DataContainers>
+                            <DataContainer ID="NLI-2780806" Type="NutritionLabel_DC"></DataContainer>
+                        </DataContainers>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

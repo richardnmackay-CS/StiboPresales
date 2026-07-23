@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <DataContainerTypes>
+        <DataContainerType ID="MasterSpecificationAllergens_DC" MultiValued="true" Inherited="false" Restricted="false" Mandatory="false" IDPattern="MSAL-[id]">
+            <Name QualifierID="en-US">Master Specification Allergens DC</Name>
+            <AttributeGroupLink AttributeGroupID="SpecificationManagementAttributes_ATG"></AttributeGroupLink>
+            <AttributeLink AttributeID="AllergenCrossContaminationRiskFrom_AT"></AttributeLink>
+            <AttributeLink AttributeID="AllergenLevelOfContainment_AT"></AttributeLink>
+            <AttributeLink AttributeID="CrossContaminationRisk_AT"></AttributeLink>
+            <AttributeLink AttributeID="IsMajorAllergen_AT"></AttributeLink>
+            <UserTypeLink UserTypeID="MasterSpecification"></UserTypeLink>
+        </DataContainerType>
+    </DataContainerTypes>
+</STEP-ProductInformation>

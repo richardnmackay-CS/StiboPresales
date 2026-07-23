@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="FoodLabelRequirements" UserTypeID="RequirementsLevel1">
+                        <Product ID="LabelRequirement02" UserTypeID="LabelRequirement">
+                            <Name>Barcode quality</Name>
+                            <Values>
+                                <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">Print quality of the barcode most be of Grade B (3) or higher. Please indicate the grade to be used.</Value>
+                                <Value AttributeID="SortOrder_AT">60</Value>
+                                <Value AttributeID="LabelDefiningAttribute_AT" ID="BarCodeGrade" LOVQualifierID="en-US">Bar Code Grade</Value>
+                                <Value AttributeID="LabelRequirementType_AT" ID="LabelRequirement" QualifierID="en-US" LOVQualifierID="en-US">Label Requirement</Value>
+                            </Values>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

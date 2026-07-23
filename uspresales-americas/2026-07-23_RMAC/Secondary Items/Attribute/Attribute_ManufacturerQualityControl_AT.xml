@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ManufacturerQualityControl_AT" MultiValued="true" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Mandatory="false">
+            <Name QualifierID="en-US">Quality Control Program</Name>
+            <ListOfValueLink ListOfValueID="ManufacturerQualityControl_LOV"></ListOfValueLink>
+            <AttributeGroupLink AttributeGroupID="SpecificationQualityControl_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="MasterSpecification"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

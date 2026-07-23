@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="ParametersRoot" UserTypeID="ParametersRoot">
+                    <Product ID="MicrobiologicalParameters" UserTypeID="ParametersLevel1">
+                        <Product ID="MicrobiologicalParameters05" UserTypeID="Parameter">
+                            <Name>Cholerae</Name>
+                            <Values>
+                                <Value AttributeID="HelpText_AT" QualifierID="en-US">To reduce the risk of food-borne transmission of cholera, it is recommended that foods should be prepared, served, and eaten in an hygienic environment, free from faecal contamination. Proper cooking, storing, and re-heating of foods before eating, and hand-washing with safe water before eating and after defaecation are important safety measures for preventing food-borne transmission of cholera.</Value>
+                                <Value AttributeID="ParameterDescription_AT" QualifierID="en-US">Not detectable in 25g</Value>
+                                <Value AttributeID="SortOrder_AT">70</Value>
+                                <Value AttributeID="ParameterType_AT" ID="Microbiological" LOVQualifierID="en-US">Microbiological</Value>
+                                <Value AttributeID="DefiningAttribute_AT" ID="NumberAndUnit" LOVQualifierID="en-US">Number and Unit</Value>
+                                <MultiValue AttributeID="ParameterValidFor_AT">
+                                    <Value ID="DesignSpecificationVariant" QualifierID="Qualifier root" LOVQualifierID="en-US">Design Specification Variant</Value>
+                                </MultiValue>
+                            </Values>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

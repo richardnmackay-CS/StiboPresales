@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="SpecificationRecipe_ATG" ShowInWorkbench="true" ManuallySorted="false" ParentID="SpecificationManagementAttributes_ATG">
+            <Name QualifierID="en-US">Specification Recipe</Name>
+            <Configuration>H4sIAAAAAAAA/7NxLCkpykwqLUl1L8ovLQjLTC13SU3LzMssyczPU3DLL8pNLAlLLSoG8myVDPUMlOy4FBRsEEqKFUISi9JTS+DGFDsn5jmluqZklqSm2CqlJeYUpyrpgzU55+eU5uYVg9hAHlwDRFgBzvd0sVUKLE3MK8ksqYx3DIFq1ofrttHH52Q7LgDHt3Cp0gAAAA==</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

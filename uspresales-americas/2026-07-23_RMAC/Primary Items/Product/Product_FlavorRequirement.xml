@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="RecipeRequirements" UserTypeID="RequirementsLevel1">
+                        <Product ID="PhysicalCharacteristics" UserTypeID="RequirementsLevel2">
+                            <Product ID="FlavorRequirement" UserTypeID="Requirement">
+                                <Name>Flavor</Name>
+                                <Values>
+                                    <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">Flavor must be... but not .. Please describe the flavor of this recipe.</Value>
+                                    <Value AttributeID="SortOrder_AT">50</Value>
+                                    <Value AttributeID="RequirementType_AT" ID="PhysicalCharacteristics" LOVQualifierID="en-US">Physical Characteristics</Value>
+                                    <Value AttributeID="DefiningAttribute_AT" ID="Text" LOVQualifierID="en-US">Text</Value>
+                                    <MultiValue AttributeID="MandatorySupplierResponsesReq_AT">
+                                        <Value QualifierID="Qualifier root">Supplier Response Detail</Value>
+                                    </MultiValue>
+                                    <MultiValue AttributeID="RequirementValidFor_AT">
+                                        <Value QualifierID="Qualifier root">Design Specification Variant</Value>
+                                    </MultiValue>
+                                </Values>
+                            </Product>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

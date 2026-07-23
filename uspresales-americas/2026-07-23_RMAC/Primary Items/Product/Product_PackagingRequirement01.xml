@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="ConsumerPackagingRequiremements" UserTypeID="RequirementsLevel1">
+                        <Product ID="PackagingSustainability" UserTypeID="RequirementsLevel2">
+                            <Product ID="PackagingRequirement01" UserTypeID="PackagingRequirement">
+                                <Name>Recycled content</Name>
+                                <Values>
+                                    <Value AttributeID="HelpText_AT" QualifierID="en-US">The packaging percentage must be based on all components of the packaging.</Value>
+                                    <Value AttributeID="PackagingDefiningAttribute_AT">Number and Unit</Value>
+                                    <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">Packaging must be made of at least 50% recycled content. Please specify recycled amount as a percentage.</Value>
+                                    <Value AttributeID="SortOrder_AT">10</Value>
+                                    <MultiValue AttributeID="RequirementValidFor_AT">
+                                        <Value QualifierID="Qualifier root">Design Specification Packaging Variant</Value>
+                                    </MultiValue>
+                                </Values>
+                            </Product>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

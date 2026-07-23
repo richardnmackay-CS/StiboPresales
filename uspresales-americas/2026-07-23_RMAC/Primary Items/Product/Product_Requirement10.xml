@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="RequirementsRoot" UserTypeID="RequirementsRoot">
+                    <Product ID="RecipeRequirements" UserTypeID="RequirementsLevel1">
+                        <Product ID="FoodClaims" UserTypeID="RequirementsLevel2">
+                            <Product ID="Requirement10" UserTypeID="Requirement">
+                                <Name>Low fat</Name>
+                                <Values>
+                                    <Value AttributeID="HelpText_AT" QualifierID="en-US">A claim that a food is low in fat, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 3 g of fat per 100 g for solids or 1,5 g of fat per 100 ml for liquids (1,8 g of fat per 100 ml for semi-skimmed milk).</Value>
+                                    <Value AttributeID="RequirementDescription_AT" QualifierID="en-US">Recipe must be 30% lower in fat than competitive products. Indicate minimum percentage lower than competitive products. </Value>
+                                    <Value AttributeID="SortOrder_AT">10</Value>
+                                    <Value AttributeID="RequirementType_AT" ID="FoodClaim" LOVQualifierID="en-US">Food Claim</Value>
+                                    <Value AttributeID="DefiningAttribute_AT" ID="NumberAndUnit" LOVQualifierID="en-US">Number and Unit</Value>
+                                    <MultiValue AttributeID="MandatorySupplierResponsesReq_AT">
+                                        <Value QualifierID="Qualifier root">Meets Requirement?</Value>
+                                        <Value QualifierID="Qualifier root">Supplier Response Detail</Value>
+                                    </MultiValue>
+                                    <MultiValue AttributeID="RequirementValidFor_AT">
+                                        <Value QualifierID="Qualifier root">Design Specification Variant</Value>
+                                    </MultiValue>
+                                </Values>
+                            </Product>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>

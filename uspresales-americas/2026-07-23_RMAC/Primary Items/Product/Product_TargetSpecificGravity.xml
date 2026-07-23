@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="SpecificationsManagementRoot" UserTypeID="SpecificationManagementRoot">
+                <Product ID="ParametersRoot" UserTypeID="ParametersRoot">
+                    <Product ID="PhysiochemicalParameters" UserTypeID="ParametersLevel1">
+                        <Product ID="TargetSpecificGravity" UserTypeID="Parameter">
+                            <Name>Target Specific Gravity</Name>
+                            <Values>
+                                <Value AttributeID="HelpText_AT" QualifierID="en-US">Lorem ipsum dolor sit amet, liber iudicabit vix ne, eu justo denique definitionem mel.</Value>
+                                <Value AttributeID="SortOrder_AT">740</Value>
+                                <Value AttributeID="ParameterType_AT" ID="Physiochemical" LOVQualifierID="en-US">Physiochemical</Value>
+                                <MultiValue AttributeID="ParameterValidFor_AT">
+                                    <Value ID="DesignSpecificationVariant" QualifierID="Qualifier root" LOVQualifierID="en-US">Design Specification Variant</Value>
+                                </MultiValue>
+                            </Values>
+                        </Product>
+                    </Product>
+                </Product>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
