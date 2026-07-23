@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="RequirementsLevel1" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict">
+            <Name QualifierID="en-US">Requirements Level 1</Name>
+            <Icon>H4sIAAAAAAAA/31UX2jdVBiPrNZSXUXxYSrDmPkXe5Kc3Jubm9jbcpvcrhe9Xbm7uPskOzk5aWObP0tOd9O+bTLLRCqFPgwU1KGCOFzxQStTK0MUH2SiA7HK8EG0+AdFEERxeNLd1CGjB5Jzvu98v9/35fuTk5MT+3f339HPcdzu+rjVZPsAe27s62XvAyfetdl2O6216cHQpR0UE67qhDbh6z6aIk2CnPkjn5Ahjtv1lNdq03bjUQOHvogyGzH1Iy5bQyNphPAMobxNprygIvx6bl3gPaciHFIbciMyybQ3vhCTgwsTLbwwg3VHGBnmh1KDEfiEIj71Z4PESCvCFq/BzplaEvgtEzpTEa4E1W5M8mYYE14VSwDDQpnXdBGqelkpDvKKDEuSrEuwCGRoyLohQ767BOYtdlyjaY11fTGpIkxTGhmS1Ol0xE5BDOMpCeq6LsmKpCiAWYBkPqAoBUGyL2ewSIJjL6JeGPCZjOxwjlYEIf8EP2o0tomDpJsoljIpRZEERVnyfSm3TmiTuDtbJ635iEhNkoRzMWb1cPdd5WpnaGbIojEOxB4rCpq1Qjznk4DWrYrAbkTHcwxUlrEOCQSKYyNQVG0X2LaiAaxrxbKCbQeW9ZznWviyXDJhdczSrNEqhDWtWlNVU6uZpgnhaKFQzbH1IKEowCTHev9hzR2xhhkTRMO4FYazeRdMToc0TKbDiDfNrOoa/0ADYS/IlA9mherGS2LvKHHG4tDntzJteNeIApYgdBVHB9jVZFBE2AG6rLqg4EBs6wW1XLAdoYt3rsrAlU5lGsYR5QEZMi6hku26ADE6AKGGgF2yMbC1sutqqqaXNFuQWIjS/5opV7EOzY7bo8GE7eEiAZuomI1O+2b+DBu71bpVbaUbK836wHn5pudP/nXnh+8df+iRC4O3Xvj2/Oubu07HvX8spc8+d/GJlZXvPlse1Jc+Liybt1QHPr38s/jnobfPHh38fe1hcspK1l68dGYy/PKljfX1zZGRb+7SHtugc+S61/ovnfhlAzb7Ll7/yudP9oyu/njbD+Krw19X0Aebe4fvX168551jh++mq/XFpz96+fHW98+scb33nv3qH+W++NhSz/t/c5cXx4+8+da5vft/+m1Pzx7uhdNa3w30i1PZP6Nem7DeGD18/F9pwUhEoAQAAA==</Icon>
+            <UserTypeLink UserTypeID="RequirementsRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>
