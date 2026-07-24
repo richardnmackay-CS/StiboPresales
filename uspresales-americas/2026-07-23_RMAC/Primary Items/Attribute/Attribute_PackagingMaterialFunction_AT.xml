@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PackagingMaterialFunction_AT" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Packaging Material Function</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="500" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <Value AttributeID="DisplaySequence">20</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Indicates the function of the packaging material.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PackagingSpecification_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="PackagingElement"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

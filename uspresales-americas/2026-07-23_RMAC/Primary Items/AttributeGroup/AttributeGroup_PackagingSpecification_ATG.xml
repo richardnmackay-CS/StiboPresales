@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="PackagingSpecification_ATG" ShowInWorkbench="true" ManuallySorted="false" ParentID="ProductSpecifications_ATG">
+            <Name QualifierID="en-US">Packaging Specification</Name>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="Purpose">Used for packaging specification attributes on specifications.</Value>
+            </MetaData>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

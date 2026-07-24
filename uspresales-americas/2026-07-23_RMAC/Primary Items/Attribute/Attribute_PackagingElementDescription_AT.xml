@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PackagingElementDescription_AT" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Packaging Element Description</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="1000" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <Value QualifierID="en-US" AttributeID="AttributeHelpText">A physical description of this packaging element, e.g. zip-locked pouch</Value>
+                <Value AttributeID="DisplaySequence">15</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Indicates a description of the packaging element.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PackagingSpecification_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="PackagingElement"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

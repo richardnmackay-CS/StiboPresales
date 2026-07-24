@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PackagingDepth_AT" MultiValued="false" DefaultUnitID="unece.unit.INH" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Packaging Depth</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask="">
+                <UnitLink UnitID="unece.unit.CMT"></UnitLink>
+                <UnitLink UnitID="unece.unit.INH"></UnitLink>
+                <UnitLink UnitID="unece.unit.MMT"></UnitLink>
+            </Validation>
+            <MetaData>
+                <Value AttributeID="DisplaySequence">60</Value>
+                <Value QualifierID="en-US" AttributeID="Purpose">Indicates the depth (front to back) of the packaging element.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PackagingSpecification_ATG"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="PackagingElement"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

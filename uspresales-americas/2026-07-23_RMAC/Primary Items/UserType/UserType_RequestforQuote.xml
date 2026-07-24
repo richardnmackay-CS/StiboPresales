@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="RequestforQuote" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Strict" IDPattern="RFQ-[id]">
+            <Name QualifierID="en-US">Request for Quote</Name>
+            <Icon>H4sIAAAAAAAA//t/4/8DBgEvN083BkYmRoYEIGT4/49ByMfV0SXE398nWKHMyEjPgOH/bYYWBlZWVg5WDh52dh4eTk5OHl4eIOAlATCycnBwsXOBDODl4SJJKwT8P8K4iIGBkZURDBiggJGJmYWVjZ2Dk4ubkYGZEQYwJAUYmBiZmZlYmFlZWViAMrVAOQYWQVYhRUNHNuHARHalQhGjxokLOZSdNh4UDbr4QcU4qaiJk0tMXEJSSlVNXUNTy8TUzNzC0srZxdXN3cPTKzgkNCw8IjIqOSU1LT0jM6u4pLSsvKKyqrmlta29o7Nr0uQpU6dNnzFz1qLFS5YuW75i5apNm7ds3bZ9x85dhw4fOXrs+ImTpy5dvnL12vUbN289fPT4ydNnz1+8fPXx0+cvX799//HzlyDQyUwsLMws7CAnMzKVg/wjyMKqaMgm5BjInlgorGTUyCHiNHHhxoOcysZBH0STii5yiamYPFT9CHI12NHEubmJLEfD3Qx38v8DDIIcDAIMgsyMQNcLMjILMv6/xcDDzAjkMAsy2DP0R1xfH6m8t9Y/eGt228QoC9Xy/poko1jHHd2n+Z8xJQeERhgGrXLSP3lqz6TgKc9m79oSNys6vjPq+41/zQunXCqeJ9cnzW1x0MnzSlOQV15Zd9aUnzsrZZe8uZVpveV2u9PHu/faK6anB13Ju8gnx90q5K4kv2eJ7e1c+7ul0lM+nzihJbE/XVUvq//kq/n/fH9M73p4tWupllab2OR6npfbJV2/VAWExz76kn3ubG3mfwZOGfs79X/K/2S/rF315vyR+s3P/1z8U3/iZ/qxfTxXTZa2nXHUPXcyLzKlzbw0JZHt2E/nXHUWUZsm/sCmunjB9pX+02TW3jwdMtu3eltVTt3byc9u+ESv7ChN9J41V+RhUGF3z+TVZ/Y+2zlp1+Yok2vnnZv+M7QUh/5nmG+9/w/79P8MHev4U4N/qv5naNj/yW7zb2f2/wyOJvYfcu3/efx6/eZy/Xnz/wz7pP9ov875bb/jX9W3Cf8q/jM88P5z/v9NAJTfZirXAwAA</Icon>
+            <UserTypeLink UserTypeID="RequestforQuotation"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

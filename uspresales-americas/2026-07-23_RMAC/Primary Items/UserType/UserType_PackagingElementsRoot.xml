@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="PackagingElementsRoot" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Relaxed">
+            <Name QualifierID="en-US">Packaging Elements Root</Name>
+            <UserTypeLink UserTypeID="MaterialsRoot"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

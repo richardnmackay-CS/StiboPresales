@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Products>
+        <Product ID="ExtendedDataModels" UserTypeID="ExtendedDataModels" ParentID="Product hierarchy root">
+            <Product ID="MaterialsRoot" UserTypeID="MaterialsRoot">
+                <Name>Materials Root</Name>
+                <AttributeLink AttributeID="AT.SAP.MaterialNumber"></AttributeLink>
+                <AttributeLink AttributeID="AT_KindOfMaterial"></AttributeLink>
+                <AttributeLink AttributeID="AT_SAP_IndustrySector"></AttributeLink>
+                <AttributeLink AttributeID="CountryOfOrigin_AT"></AttributeLink>
+                <AttributeLink AttributeID="IngredientDescription_AT"></AttributeLink>
+                <AttributeLink AttributeID="LongDescription_AT"></AttributeLink>
+                <AttributeLink AttributeID="MaterialDescription"></AttributeLink>
+                <AttributeLink AttributeID="ProductStatus_AT"></AttributeLink>
+                <AttributeLink AttributeID="SAP_BaseUnitOfMeasure_AT"></AttributeLink>
+                <AttributeLink AttributeID="SAP_MaterialGroup_AT"></AttributeLink>
+                <AttributeLink AttributeID="ShelfLife_AT"></AttributeLink>
+                <AttributeLink AttributeID="ShortDescription_AT"></AttributeLink>
+                <AttributeLink AttributeID="UPC_AT"></AttributeLink>
+            </Product>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
